@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -ex
+
+# Clean up
+rm -rf gradle graalvm-jdk native-image.properties signal-cli
+
+# Set up versions
+SIGNAL_CLI_VERSION=v0.13.2
+GRADLE_VERSION=8.7
+GRAALVM_VERSION=21
+
+# Download Gradle & GraalVM
+
+apt-get -y dist-upgrade
+apt-get -y install wget unzip build-essential zlib1g-dev
+
+wget --quiet -O gradle.zip https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip
+unzip -q gradle.zip
+rm gradle.zip
+mv gradle-${GRADLE_VERSION} gradle
+
+wget --quiet -O graalvm-jdk.tar.gz https://download.oracle.com/graalvm/${GRAALVM_VERSION}/latest/graalvm-jdk-${GRAALVM_VERSION}_linux-x64_bin.tar.gz
+tar xzf graalvm-jdk.tar.gz
+rm graalvm-jdk.tar.gz
+mv graalvm-jdk* graalvm-jdk
+
+export PATH=`realpath gradle/bin`:`realpath graalvm-jdk`/bin:$PATH
+
+# Configure Native image
+echo "NativeImageArgs=-march=x86-64-v2" > native-image.properties
+export NATIVE_IMAGE_CONFIG_FILE=`realpath native-image.properties`
+
+# Clone & build signal-cli
+git clone -b ${SIGNAL_CLI_VERSION} --depth 1 https://github.com/AsamK/signal-cli.git
+
+cd signal-cli
+
+gradle build
+gradle installDist
+gradle distTar
+gradle fatJar
+gradle run --args="--help"
+gradle nativeCompile
+
+exit 0

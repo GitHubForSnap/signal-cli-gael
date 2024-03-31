@@ -1,0 +1,30 @@
+name: signal-cli-gael
+version: "0.13.2"
+base: core22
+summary: Signal-cli
+description: |
+  Signal-cli is a commandline interface for the Signal messenger. It supports registering, verifying, sending and receiving messages. signal-cli uses a patched libsignal-service-java, extracted from the Signal-Android source code. For registering you need a phone number where you can receive SMS or incoming calls.
+
+  Signal-cli is primarily intended to be used on servers to notify admins of important events. For this use-case, it has a daemon mode with D-BUS interface (man page) and JSON-RPC interface (documentation). For the JSON-RPC interface there's also a simple example client, written in Rust.
+
+grade: stable 
+confinement: strict
+
+architectures:
+  - build-on: amd64
+
+license: "GPL-3.0-or-later"
+
+apps:
+  signal-cli:
+    command: signal-cli
+    environment:
+      XDG_DATA_HOME: $SNAP_DATA
+    plugs:
+    - network
+    - network-bind
+
+parts:
+  scripted_build:
+    plugin: dump
+    source: snap/local/target
