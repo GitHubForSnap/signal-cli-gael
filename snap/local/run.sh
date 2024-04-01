@@ -2,6 +2,8 @@
 
 lxc launch ubuntu:22.04 signal-cli-gael
 
+cd "$(dirname "$0")"
+
 BUILD_DIR="./build"
 TARGET_DIR="./target"
 

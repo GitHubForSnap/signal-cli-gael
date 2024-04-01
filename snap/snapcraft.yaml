@@ -16,10 +16,22 @@ architectures:
 license: "GPL-3.0-or-later"
 
 apps:
+  signal-cli-daemon:
+    command: signal-cli-daemon.sh
+    daemon: simple
+    install-mode: disable
+    environment:
+      XDG_DATA_HOME: $SNAP_DATA
+      XDG_RUNTIME_DIR: $SNAP_DATA
+    plugs:
+    - network
+    - network-bind
+
   signal-cli:
     command: signal-cli
     environment:
       XDG_DATA_HOME: $SNAP_DATA
+      XDG_RUNTIME_DIR: $SNAP_DATA
     plugs:
     - network
     - network-bind
@@ -28,3 +40,7 @@ parts:
   scripted_build:
     plugin: dump
     source: snap/local/target
+
+  launchers:
+    plugin: dump
+    source: snap/local/launchers

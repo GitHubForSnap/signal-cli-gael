@@ -10,5 +10,11 @@ Signal-cli is primarily intended to be used on servers to notify admins of impor
 
 Read the doc at https://github.com/AsamK/signal-cli/blob/master/man/signal-cli.1.adoc on how to get started.
 
+**Configure the daemon**
+
+`sudo vi /var/snap/signal-cli-gael/current/signal-cli-daemon.options`
+
+`sudo snap start signal-cli-gael.signal-cli-daemon`
+
 **2024-03-31**
 * v0.13.2 Built for x86-64-v2

@@ -1,6 +1,11 @@
 Reading package lists...
 Building dependency tree...
 Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
 wget is already the newest version (1.21.2-2ubuntu1).
 wget set to manually installed.
 The following additional packages will be installed:
@@ -30,6 +35,61 @@ The following NEW packages will be installed:
 0 upgraded, 55 newly installed, 0 to remove and 0 not upgraded.
 Need to get 64.5 MB of archives.
 After this operation, 209 MB of additional disk space will be used.
+Ign:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.6
+Ign:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-101.111
+Ign:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcrypt-dev amd64 1:4.4.27-1
+Ign:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu6
+Ign:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtirpc-dev amd64 1.3.2-2ubuntu0.1
+Ign:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 libnsl-dev amd64 1.3.0-2build2
+Ign:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-dev amd64 2.35-0ubuntu3.6
+Ign:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11-base amd64 11.4.0-1ubuntu1~22.04
+Ign:9 http://archive.ubuntu.com/ubuntu jammy/main amd64 libisl23 amd64 0.24-2build1
+Ign:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 libmpc3 amd64 1.2.1-2build1
+Ign:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cpp-11 amd64 11.4.0-1ubuntu1~22.04
+Ign:12 http://archive.ubuntu.com/ubuntu jammy/main amd64 cpp amd64 4:11.2.0-1ubuntu1
+Ign:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcc1-0 amd64 12.3.0-1ubuntu1~22.04
+Ign:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.3.0-1ubuntu1~22.04
+Ign:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libitm1 amd64 12.3.0-1ubuntu1~22.04
+Ign:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libatomic1 amd64 12.3.0-1ubuntu1~22.04
+Ign:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libasan6 amd64 11.4.0-1ubuntu1~22.04
+Ign:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 liblsan0 amd64 12.3.0-1ubuntu1~22.04
+Ign:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtsan0 amd64 11.4.0-1ubuntu1~22.04
+Ign:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libubsan1 amd64 12.3.0-1ubuntu1~22.04
+Ign:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libquadmath0 amd64 12.3.0-1ubuntu1~22.04
+Ign:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgcc-11-dev amd64 11.4.0-1ubuntu1~22.04
+Ign:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 gcc-11 amd64 11.4.0-1ubuntu1~22.04
+Ign:24 http://archive.ubuntu.com/ubuntu jammy/main amd64 gcc amd64 4:11.2.0-1ubuntu1
+Ign:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libstdc++-11-dev amd64 11.4.0-1ubuntu1~22.04
+Ign:26 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 g++-11 amd64 11.4.0-1ubuntu1~22.04
+Ign:27 http://archive.ubuntu.com/ubuntu jammy/main amd64 g++ amd64 4:11.2.0-1ubuntu1
+Ign:28 http://archive.ubuntu.com/ubuntu jammy/main amd64 make amd64 4.3-4.1build1
+Ign:29 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libdpkg-perl all 1.21.1ubuntu2.3
+Ign:30 http://archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1
+Ign:31 http://archive.ubuntu.com/ubuntu jammy/main amd64 lto-disabled-list all 24
+Ign:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dpkg-dev all 1.21.1ubuntu2.3
+Ign:33 http://archive.ubuntu.com/ubuntu jammy/main amd64 build-essential amd64 12.9ubuntu3
+Ign:34 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfakeroot amd64 1.28-1ubuntu1
+Ign:35 http://archive.ubuntu.com/ubuntu jammy/main amd64 fakeroot amd64 1.28-1ubuntu1
+Ign:36 http://archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1
+Ign:37 http://archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5
+Ign:38 http://archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-perl all 1.201-1
+Ign:39 http://archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-diff-xs-perl amd64 0.04-6build3
+Ign:40 http://archive.ubuntu.com/ubuntu jammy/main amd64 libalgorithm-merge-perl all 0.08-3
+Ign:41 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libfreetype6 amd64 2.11.1+dfsg-1ubuntu0.2
+Ign:42 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5
+Ign:43 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1
+Ign:44 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10
+Ign:45 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2
+Ign:46 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1
+Ign:47 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.2
+Ign:48 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.8
+Ign:49 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2
+Ign:50 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgd3 amd64 2.3.0-2ubuntu2
+Ign:51 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-devtools amd64 2.35-0ubuntu3.6
+Ign:52 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfile-fcntllock-perl amd64 0.22-3build7
+Ign:53 http://archive.ubuntu.com/ubuntu jammy/main amd64 manpages-dev all 5.10-1ubuntu1
+Ign:54 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 unzip amd64 6.0-26ubuntu3.2
+Ign:55 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2
 Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.6 [20.3 kB]
 Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-101.111 [1333 kB]
 Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcrypt-dev amd64 1:4.4.27-1 [112 kB]
@@ -85,7 +145,7 @@ Get:52 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfile-fcntllock-perl 
 Get:53 http://archive.ubuntu.com/ubuntu jammy/main amd64 manpages-dev all 5.10-1ubuntu1 [2309 kB]
 Get:54 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 unzip amd64 6.0-26ubuntu3.2 [175 kB]
 Get:55 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2 [164 kB]
-Fetched 64.5 MB in 3s (22.0 MB/s)
+Fetched 64.5 MB in 4s (15.5 MB/s)
 Selecting previously unselected package libc-dev-bin.
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33929 files and directories currently installed.)
 Preparing to unpack .../00-libc-dev-bin_2.35-0ubuntu3.6_amd64.deb ...
@@ -356,7 +416,7 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :lib:check
 > Task :lib:build
 
-BUILD SUCCESSFUL in 1m 42s
+BUILD SUCCESSFUL in 1m 56s
 16 actionable tasks: 16 executed
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
 > Task :buildSrc:compileKotlin UP-TO-DATE
@@ -414,7 +474,7 @@ BUILD SUCCESSFUL in 1s
 > Task :classes UP-TO-DATE
 > Task :fatJar
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 11s
 9 actionable tasks: 2 executed, 7 up-to-date
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
 > Task :buildSrc:compileKotlin UP-TO-DATE
@@ -613,7 +673,7 @@ https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/B
 ------------------------------------------------------------------------------------------------------------------------
 The URL protocol jar is not tested and might not work as expected.
 Supported URL protocols enabled by default: file,resource. Supported URL protocols available on demand: http,https.
-[1/8] Initializing...                                                                                   (11.9s @ 0.14GB)
+[1/8] Initializing...                                                                                   (12.3s @ 0.17GB)
  Java version: 21.0.2+13-LTS, vendor version: Oracle GraalVM 21.0.2+13.1
  Graal compiler: optimization level: 2, target machine: x86-64-v2, PGO: ML-inferred
  C compiler: gcc (linux, x86_64, 11.4.0)
@@ -625,27 +685,27 @@ Supported URL protocols enabled by default: file,resource. Supported URL protoco
 Build resources:
  - 7.35GB of memory (75.6% of 9.73GB system memory, determined at start)
  - 4 thread(s) (100.0% of 4 available processor(s), determined at start)
-[2/8] Performing analysis...  [******]                                                                 (115.8s @ 1.49GB)
+[2/8] Performing analysis...  [******]                                                                 (116.0s @ 2.02GB)
    18,101 reachable types   (90.0% of   20,102 total)
-   29,290 reachable fields  (67.8% of   43,198 total)
-   99,120 reachable methods (63.9% of  155,078 total)
+   29,290 reachable fields  (67.8% of   43,224 total)
+   99,114 reachable methods (63.9% of  155,083 total)
     5,619 types, 1,448 fields, and 5,634 methods registered for reflection
       122 types,    86 fields, and   131 methods registered for JNI access
         4 native libraries: dl, pthread, rt, z
-[3/8] Building universe...                                                                              (12.2s @ 2.14GB)
-[4/8] Parsing methods...      [******]                                                                  (32.3s @ 2.32GB)
-[5/8] Inlining methods...     [***]                                                                      (4.7s @ 2.06GB)
-[6/8] Compiling methods...    [*************]                                                          (191.2s @ 3.17GB)
-[7/8] Layouting methods...    [****]                                                                    (16.6s @ 2.26GB)
-[8/8] Creating image...       [****]                                                                    (14.3s @ 3.07GB)
+[3/8] Building universe...                                                                              (13.1s @ 1.98GB)
+[4/8] Parsing methods...      [******]                                                                  (32.6s @ 2.40GB)
+[5/8] Inlining methods...     [***]                                                                      (5.0s @ 1.64GB)
+[6/8] Compiling methods...    [**************]                                                         (194.3s @ 2.51GB)
+[7/8] Layouting methods...    [****]                                                                    (17.9s @ 2.18GB)
+[8/8] Creating image...       [****]                                                                    (14.7s @ 2.99GB)
   50.32MB (34.34%) for code area:    56,536 compilation units
-  93.00MB (63.47%) for image heap:  473,159 objects and 675 resources
+  93.00MB (63.46%) for image heap:  473,113 objects and 675 resources
    3.21MB ( 2.19%) for other data
  146.53MB in total
 ------------------------------------------------------------------------------------------------------------------------
 Top 10 origins of code area:                                Top 10 object types in image heap:
   14.05MB java.base                                           55.10MB byte[] for embedded resources
-   5.48MB bcprov-jdk18on-1.77.jar                             14.25MB byte[] for code metadata
+   5.48MB bcprov-jdk18on-1.77.jar                             14.26MB byte[] for code metadata
    4.77MB svm.jar (Native Image)                               7.46MB byte[] for java.lang.String
    4.27MB kotlin-reflect-1.7.22.jar                            3.49MB java.lang.String
    3.98MB java.xml                                             3.34MB java.lang.Class
@@ -653,7 +713,7 @@ Top 10 origins of code area:                                Top 10 object types 
    2.42MB lib.jar                                            881.51kB byte[] for general heap data
    2.34MB jackson-databind-2.17.0.jar                        848.48kB com.oracle.svm.core.hub.DynamicHubCompanion
    1.31MB signal-cli-0.13.2.jar                              527.78kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
- 778.60kB jackson-core-2.17.0.jar                            497.83kB java.lang.String[]
+ 778.60kB jackson-core-2.17.0.jar                            497.84kB java.lang.String[]
    7.64MB for 46 more packages                                 5.16MB for 3744 more object types
                               Use '-H:+BuildReport' to create a report with more details.
 ------------------------------------------------------------------------------------------------------------------------
@@ -668,13 +728,13 @@ Recommendations:
  HEAP: Set max heap for improved and more predictable memory usage.
  QBM:  Use the quick build mode ('-Ob') to speed up builds during development.
 ------------------------------------------------------------------------------------------------------------------------
-                       37.7s (9.3% of total time) in 237 GCs | Peak RSS: 5.47GB | CPU load: 3.59
+                       38.8s (9.5% of total time) in 246 GCs | Peak RSS: 5.56GB | CPU load: 3.58
 ------------------------------------------------------------------------------------------------------------------------
 Produced artifacts:
  /root/signal-cli/build/native/nativeCompile/signal-cli (executable)
 ========================================================================================================================
-Finished generating 'signal-cli' in 6m 40s.
+Finished generating 'signal-cli' in 6m 47s.
 [native-image-plugin] Native Image written to: /root/signal-cli/build/native/nativeCompile
 
-BUILD SUCCESSFUL in 6m 48s
+BUILD SUCCESSFUL in 6m 52s
 13 actionable tasks: 3 executed, 10 up-to-date
