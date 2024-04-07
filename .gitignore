@@ -1,0 +1,2 @@
+# Ignore the signal-cli native build as it is above 100 MB
+/snap/local/target/signal-cli
