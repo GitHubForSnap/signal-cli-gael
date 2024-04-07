@@ -16,16 +16,24 @@ architectures:
 license: "GPL-3.0-or-later"
 
 apps:
-  signal-cli-daemon:
-    command: signal-cli-daemon.sh
+  signal-cli-receive:
+    command: signal-cli-receive.sh
     daemon: simple
     install-mode: disable
+    timer: 00:00-24:00/6
     environment:
       XDG_DATA_HOME: $SNAP_DATA
       XDG_RUNTIME_DIR: $SNAP_DATA
     plugs:
     - network
-    - network-bind
+
+  signal-cli-from-stdin:
+    command: signal-cli-from-stdin.sh
+    environment:
+      XDG_DATA_HOME: $SNAP_DATA
+      XDG_RUNTIME_DIR: $SNAP_DATA
+    plugs:
+    - network
 
   signal-cli:
     command: signal-cli
@@ -34,7 +42,6 @@ apps:
       XDG_RUNTIME_DIR: $SNAP_DATA
     plugs:
     - network
-    - network-bind
 
 parts:
   scripted_build:

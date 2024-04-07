@@ -4,17 +4,37 @@ _This is NOT an original piece of work, just a snap of signal-cli_
 
 Signal-cli is a commandline interface for the Signal messenger. It supports registering, verifying, sending and receiving messages. signal-cli uses a patched libsignal-service-java, extracted from the Signal-Android source code. For registering you need a phone number where you can receive SMS or incoming calls.
 
-Signal-cli is primarily intended to be used on servers to notify admins of important events. For this use-case, it has a daemon mode with D-BUS interface (man page) and JSON-RPC interface (documentation). For the JSON-RPC interface there's also a simple example client, written in Rust.
+Signal-cli is primarily intended to be used on servers to notify admins of important events. For this use-case, it has a daemon mode with D-BUS interface (man page) and JSON-RPC interface (documentation).
 
 **First-time users**
 
 Read the doc at https://github.com/AsamK/signal-cli/blob/master/man/signal-cli.1.adoc on how to get started.
 
-**Configure the daemon**
+**Configure automatic message reception every 4 hours**
 
-`sudo vi /var/snap/signal-cli-gael/current/signal-cli-daemon.options`
+`sudo vi /var/snap/signal-cli-gael/current/signal-cli-receive.options`
 
-`sudo snap start signal-cli-gael.signal-cli-daemon`
+`sudo snap start --enable signal-cli-gael.signal-cli-receive`
+
+**Configure signal-cli as a sendmail replacement**
+
+`sudo vi /var/snap/signal-cli-gael/current/signal-cli-from-stdin.options`
+
+```
+<<DESTINATION_ACOUNT>>
+```
+
+`sudo vi /usr/sbin/sendmail2signal`
+
+```
+#!/bin/bash
+
+signal-cli-gael.signal-cli-from-stdin
+```
+
+`sudo chmod 755 sendmail2signal`
+
+`sudo ln -s /usr/sbin/sendmail2signal /usr/sbin/sendmail`
 
 **2024-03-31**
-* v0.13.2 Built for x86-64-v2
+* v0.13.2 built for x86-64-v2
