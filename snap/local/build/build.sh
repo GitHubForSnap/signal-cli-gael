@@ -2,16 +2,19 @@
 
 set -ex
 
+sed -i "s/#\$nrconf{restart} = 'i';/\$nrconf{restart} = 'a';/" /etc/needrestart/needrestart.conf
+
 # Clean up
 rm -rf gradle graalvm-jdk native-image.properties signal-cli
 
 # Set up versions
-SIGNAL_CLI_VERSION=v0.13.2
+SIGNAL_CLI_VERSION=v0.13.3
 GRADLE_VERSION=8.7
 GRAALVM_VERSION=21
 
 # Download Gradle & GraalVM
 
+apt-get update
 apt-get -y dist-upgrade
 apt-get -y install wget unzip build-essential zlib1g-dev
 
