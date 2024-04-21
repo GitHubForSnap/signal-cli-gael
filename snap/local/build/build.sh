@@ -2,9 +2,10 @@
 
 set -ex
 
+# Enable automatic service restart
 sed -i "s/#\$nrconf{restart} = 'i';/\$nrconf{restart} = 'a';/" /etc/needrestart/needrestart.conf
 
-# Clean up
+# Clean up leftovers
 rm -rf gradle graalvm-jdk native-image.properties signal-cli
 
 # Set up versions
@@ -12,12 +13,12 @@ SIGNAL_CLI_VERSION=v0.13.3
 GRADLE_VERSION=8.7
 GRAALVM_VERSION=21
 
-# Download Gradle & GraalVM
-
-apt-get update
+# Update the container & install the required tools
+apt-get update 2>/dev/null
 apt-get -y dist-upgrade
 apt-get -y install wget unzip build-essential zlib1g-dev
 
+# Download Gradle & GraalVM
 wget --quiet -O gradle.zip https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip
 unzip -q gradle.zip
 rm gradle.zip

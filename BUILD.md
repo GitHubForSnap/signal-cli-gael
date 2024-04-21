@@ -12,3 +12,6 @@ vi ./snap/snapcraft.yaml
 
 # Create the snap
 snapcraft --verbose
+
+# Upload the snap
+snapcraft upload --release=stable SNAP_PACKAGE
