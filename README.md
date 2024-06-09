@@ -14,6 +14,10 @@ Read the doc at https://github.com/AsamK/signal-cli/blob/master/man/signal-cli.1
 
 `sudo vi /var/snap/signal-cli-gael/current/signal-cli-receive.options`
 
+```
+--timeout 20 --ignore-attachments --send-read-receipts
+```
+
 `sudo snap start --enable signal-cli-gael.signal-cli-receive`
 
 **Configure signal-cli as a sendmail replacement**
