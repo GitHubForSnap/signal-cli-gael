@@ -10,8 +10,14 @@ vi ./snap/local/build/build.log
 # Configure the snap version
 vi ./snap/snapcraft.yaml
 
+# Edit README.md
+vi README.md
+
 # Create the snap
 snapcraft --verbose
 
 # Upload the snap
 snapcraft upload --release=stable SNAP_PACKAGE
+
+# Push to GitHub
+[...]

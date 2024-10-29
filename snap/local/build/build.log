@@ -6,175 +6,94 @@ Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
 Ign:2 http://archive.ubuntu.com/ubuntu jammy InRelease
 Ign:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
 Ign:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
-Ign:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
-Ign:2 http://archive.ubuntu.com/ubuntu jammy InRelease
-Ign:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
-Ign:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
-Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
 Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
 Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
 Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
 Get:5 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:6 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1771 kB]
-Get:7 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [291 kB]
-Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [13.3 kB]
-Get:9 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2327 kB]
-Get:10 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [400 kB]
-Get:11 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [584 B]
-Get:12 http://archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
-Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [901 kB]
-Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [176 kB]
-Get:15 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [19.2 kB]
-Get:16 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [37.2 kB]
-Get:17 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [7588 B]
-Get:18 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [228 B]
-Get:19 http://archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
-Get:20 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
-Get:21 http://archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
-Get:22 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
-Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1988 kB]
-Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [349 kB]
-Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [17.8 kB]
-Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2386 kB]
-Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [410 kB]
-Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [616 B]
-Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1123 kB]
-Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [261 kB]
-Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [26.1 kB]
-Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [43.3 kB]
-Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [10.8 kB]
-Get:34 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [444 B]
-Get:35 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [67.8 kB]
-Get:36 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.1 kB]
-Get:37 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
-Get:38 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
-Get:39 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [28.8 kB]
-Get:40 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.5 kB]
-Get:41 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [672 B]
-Get:42 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
-Fetched 33.4 MB in 13s (2557 kB/s)
+Get:6 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1895 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/universe Translation-en [5652 kB]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [305 kB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [13.3 kB]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2517 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [435 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [217 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy/multiverse Translation-en [112 kB]
+Get:15 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [911 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 c-n-f Metadata [8372 B]
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [180 kB]
+Get:18 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [19.5 kB]
+Get:19 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [37.2 kB]
+Get:20 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [7588 B]
+Get:21 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [228 B]
+Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2112 kB]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [363 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [17.9 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2579 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [445 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [612 B]
+Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1133 kB]
+Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [265 kB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [26.4 kB]
+Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [43.3 kB]
+Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [10.8 kB]
+Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [440 B]
+Get:34 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [67.7 kB]
+Get:35 http://archive.ubuntu.com/ubuntu jammy-backports/main Translation-en [11.1 kB]
+Get:36 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 c-n-f Metadata [388 B]
+Get:37 http://archive.ubuntu.com/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:38 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [28.8 kB]
+Get:39 http://archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [16.5 kB]
+Get:40 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [672 B]
+Get:41 http://archive.ubuntu.com/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+Fetched 34.2 MB in 9s (3716 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Reading state information...
 Calculating upgrade...
+The following NEW packages will be installed:
+  python3-packaging
 The following packages will be upgraded:
-  apparmor cloud-init e2fsprogs libapparmor1 libcom-err2 libext2fs2
-  libpython3-stdlib libss2 libssl3 logsave openssl python3 python3-minimal
-  python3-twisted ubuntu-advantage-tools ubuntu-pro-client
-  ubuntu-pro-client-l10n vim vim-common vim-runtime vim-tiny xxd
-22 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 16.8 MB of archives.
-After this operation, 6144 B of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 logsave amd64 1.46.5-2ubuntu1.2 [10.1 kB]
-Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libext2fs2 amd64 1.46.5-2ubuntu1.2 [208 kB]
-Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 e2fsprogs amd64 1.46.5-2ubuntu1.2 [590 kB]
-Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-minimal amd64 3.10.6-1~22.04.1 [24.3 kB]
-Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3 amd64 3.10.6-1~22.04.1 [22.8 kB]
-Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpython3-stdlib amd64 3.10.6-1~22.04.1 [6812 B]
-Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcom-err2 amd64 1.46.5-2ubuntu1.2 [9304 B]
-Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssl3 amd64 3.0.2-0ubuntu1.18 [1905 kB]
-Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libss2 amd64 1.46.5-2ubuntu1.2 [12.3 kB]
-Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libapparmor1 amd64 3.0.4-2ubuntu2.3build2 [39.2 kB]
-Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssl amd64 3.0.2-0ubuntu1.18 [1184 kB]
-Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-pro-client-l10n amd64 33.2~22.04 [20.2 kB]
-Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-pro-client amd64 33.2~22.04 [211 kB]
-Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-advantage-tools all 33.2~22.04 [10.9 kB]
-Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim amd64 2:8.2.3995-1ubuntu2.18 [1730 kB]
-Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-tiny amd64 2:8.2.3995-1ubuntu2.18 [708 kB]
-Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-runtime all 2:8.2.3995-1ubuntu2.18 [6827 kB]
-Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 xxd amd64 2:8.2.3995-1ubuntu2.18 [53.0 kB]
-Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-common all 2:8.2.3995-1ubuntu2.18 [81.5 kB]
-Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apparmor amd64 3.0.4-2ubuntu2.3build2 [595 kB]
-Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-twisted all 22.1.0-2ubuntu2.5 [2006 kB]
-Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cloud-init all 24.2-0ubuntu1~22.04.1 [554 kB]
-Preconfiguring packages ...
-Fetched 16.8 MB in 0s (48.6 MB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33953 files and directories currently installed.)
-Preparing to unpack .../logsave_1.46.5-2ubuntu1.2_amd64.deb ...
-Unpacking logsave (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
-Preparing to unpack .../libext2fs2_1.46.5-2ubuntu1.2_amd64.deb ...
-Unpacking libext2fs2:amd64 (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
-Setting up libext2fs2:amd64 (1.46.5-2ubuntu1.2) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33953 files and directories currently installed.)
-Preparing to unpack .../e2fsprogs_1.46.5-2ubuntu1.2_amd64.deb ...
-Unpacking e2fsprogs (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
-Preparing to unpack .../python3-minimal_3.10.6-1~22.04.1_amd64.deb ...
-Unpacking python3-minimal (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
-Setting up python3-minimal (3.10.6-1~22.04.1) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33953 files and directories currently installed.)
-Preparing to unpack .../python3_3.10.6-1~22.04.1_amd64.deb ...
-running python pre-rtupdate hooks for python3.10...
-Unpacking python3 (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
-Preparing to unpack .../libpython3-stdlib_3.10.6-1~22.04.1_amd64.deb ...
-Unpacking libpython3-stdlib:amd64 (3.10.6-1~22.04.1) over (3.10.6-1~22.04) ...
-Preparing to unpack .../libcom-err2_1.46.5-2ubuntu1.2_amd64.deb ...
-Unpacking libcom-err2:amd64 (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
-Setting up libcom-err2:amd64 (1.46.5-2ubuntu1.2) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33953 files and directories currently installed.)
-Preparing to unpack .../libssl3_3.0.2-0ubuntu1.18_amd64.deb ...
-Unpacking libssl3:amd64 (3.0.2-0ubuntu1.18) over (3.0.2-0ubuntu1.17) ...
-Setting up libssl3:amd64 (3.0.2-0ubuntu1.18) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33953 files and directories currently installed.)
-Preparing to unpack .../00-libss2_1.46.5-2ubuntu1.2_amd64.deb ...
-Unpacking libss2:amd64 (1.46.5-2ubuntu1.2) over (1.46.5-2ubuntu1.1) ...
-Preparing to unpack .../01-libapparmor1_3.0.4-2ubuntu2.3build2_amd64.deb ...
-Unpacking libapparmor1:amd64 (3.0.4-2ubuntu2.3build2) over (3.0.4-2ubuntu2.3) ...
-Preparing to unpack .../02-openssl_3.0.2-0ubuntu1.18_amd64.deb ...
-Unpacking openssl (3.0.2-0ubuntu1.18) over (3.0.2-0ubuntu1.17) ...
-Preparing to unpack .../03-ubuntu-pro-client-l10n_33.2~22.04_amd64.deb ...
-Unpacking ubuntu-pro-client-l10n (33.2~22.04) over (32.3.1~22.04) ...
-Preparing to unpack .../04-ubuntu-pro-client_33.2~22.04_amd64.deb ...
-Unpacking ubuntu-pro-client (33.2~22.04) over (32.3.1~22.04) ...
-Preparing to unpack .../05-ubuntu-advantage-tools_33.2~22.04_all.deb ...
-Unpacking ubuntu-advantage-tools (33.2~22.04) over (32.3.1~22.04) ...
-Preparing to unpack .../06-vim_2%3a8.2.3995-1ubuntu2.18_amd64.deb ...
-Unpacking vim (2:8.2.3995-1ubuntu2.18) over (2:8.2.3995-1ubuntu2.17) ...
-Preparing to unpack .../07-vim-tiny_2%3a8.2.3995-1ubuntu2.18_amd64.deb ...
-Unpacking vim-tiny (2:8.2.3995-1ubuntu2.18) over (2:8.2.3995-1ubuntu2.17) ...
-Preparing to unpack .../08-vim-runtime_2%3a8.2.3995-1ubuntu2.18_all.deb ...
-Unpacking vim-runtime (2:8.2.3995-1ubuntu2.18) over (2:8.2.3995-1ubuntu2.17) ...
-Preparing to unpack .../09-xxd_2%3a8.2.3995-1ubuntu2.18_amd64.deb ...
-Unpacking xxd (2:8.2.3995-1ubuntu2.18) over (2:8.2.3995-1ubuntu2.17) ...
-Preparing to unpack .../10-vim-common_2%3a8.2.3995-1ubuntu2.18_all.deb ...
-Unpacking vim-common (2:8.2.3995-1ubuntu2.18) over (2:8.2.3995-1ubuntu2.17) ...
-Preparing to unpack .../11-apparmor_3.0.4-2ubuntu2.3build2_amd64.deb ...
-Unpacking apparmor (3.0.4-2ubuntu2.3build2) over (3.0.4-2ubuntu2.3) ...
-Preparing to unpack .../12-python3-twisted_22.1.0-2ubuntu2.5_all.deb ...
-Unpacking python3-twisted (22.1.0-2ubuntu2.5) over (22.1.0-2ubuntu2.4) ...
-Preparing to unpack .../13-cloud-init_24.2-0ubuntu1~22.04.1_all.deb ...
-Unpacking cloud-init (24.2-0ubuntu1~22.04.1) over (24.1.3-0ubuntu1~22.04.5) ...
-Setting up libapparmor1:amd64 (3.0.4-2ubuntu2.3build2) ...
-Setting up xxd (2:8.2.3995-1ubuntu2.18) ...
-Setting up apparmor (3.0.4-2ubuntu2.3build2) ...
-Reloading AppArmor profiles 
-Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
-Setting up vim-common (2:8.2.3995-1ubuntu2.18) ...
-Setting up libss2:amd64 (1.46.5-2ubuntu1.2) ...
-Setting up logsave (1.46.5-2ubuntu1.2) ...
-Setting up vim-runtime (2:8.2.3995-1ubuntu2.18) ...
-Setting up openssl (3.0.2-0ubuntu1.18) ...
-Setting up libpython3-stdlib:amd64 (3.10.6-1~22.04.1) ...
-Setting up vim (2:8.2.3995-1ubuntu2.18) ...
-Setting up e2fsprogs (1.46.5-2ubuntu1.2) ...
-update-initramfs: deferring update (trigger activated)
-e2scrub_all.service is a disabled or a static unit not running, not starting it.
-Setting up python3 (3.10.6-1~22.04.1) ...
-running python rtupdate hooks for python3.10...
-running python post-rtupdate hooks for python3.10...
-Setting up vim-tiny (2:8.2.3995-1ubuntu2.18) ...
-Setting up python3-twisted (22.1.0-2ubuntu2.5) ...
-Setting up ubuntu-pro-client (33.2~22.04) ...
-Installing new version of config file /etc/apparmor.d/ubuntu_pro_apt_news ...
-Setting up ubuntu-pro-client-l10n (33.2~22.04) ...
-Setting up cloud-init (24.2-0ubuntu1~22.04.1) ...
-Installing new version of config file /etc/cloud/cloud.cfg ...
-Installing new version of config file /etc/cloud/templates/sources.list.ubuntu.deb822.tmpl ...
-Setting up ubuntu-advantage-tools (33.2~22.04) ...
-Processing triggers for rsyslog (8.2112.0-2ubuntu2.2) ...
-Processing triggers for man-db (2.10.2-1) ...
+  distro-info-data libarchive13 nano snapd sosreport
+5 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 27.5 MB of archives.
+After this operation, 2418 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 distro-info-data all 0.52ubuntu0.8 [5302 B]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 nano amd64 6.2-1ubuntu0.1 [280 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libarchive13 amd64 3.6.0-1ubuntu1.2 [369 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 python3-packaging all 21.3-1 [30.7 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 snapd amd64 2.65.3+22.04 [26.4 MB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 sosreport amd64 4.7.2-0ubuntu1~22.04.1 [352 kB]
+Fetched 27.5 MB in 0s (60.0 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33987 files and directories currently installed.)
+Preparing to unpack .../0-distro-info-data_0.52ubuntu0.8_all.deb ...
+Unpacking distro-info-data (0.52ubuntu0.8) over (0.52ubuntu0.7) ...
+Preparing to unpack .../1-nano_6.2-1ubuntu0.1_amd64.deb ...
+Unpacking nano (6.2-1ubuntu0.1) over (6.2-1) ...
+Preparing to unpack .../2-libarchive13_3.6.0-1ubuntu1.2_amd64.deb ...
+Unpacking libarchive13:amd64 (3.6.0-1ubuntu1.2) over (3.6.0-1ubuntu1.1) ...
+Selecting previously unselected package python3-packaging.
+Preparing to unpack .../3-python3-packaging_21.3-1_all.deb ...
+Unpacking python3-packaging (21.3-1) ...
+Preparing to unpack .../4-snapd_2.65.3+22.04_amd64.deb ...
+Unpacking snapd (2.65.3+22.04) over (2.63+22.04ubuntu0.1) ...
+Preparing to unpack .../5-sosreport_4.7.2-0ubuntu1~22.04.1_amd64.deb ...
+Unpacking sosreport (4.7.2-0ubuntu1~22.04.1) over (4.5.6-0ubuntu1~22.04.2) ...
+Setting up snapd (2.65.3+22.04) ...
+Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real ...
+snapd.failure.service is a disabled or a static unit not running, not starting it.
+snapd.snap-repair.service is a disabled or a static unit not running, not starting it.
+Setting up libarchive13:amd64 (3.6.0-1ubuntu1.2) ...
+Setting up distro-info-data (0.52ubuntu0.8) ...
+Setting up python3-packaging (21.3-1) ...
+Setting up sosreport (4.7.2-0ubuntu1~22.04.1) ...
+Setting up nano (6.2-1ubuntu0.1) ...
 Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
-Processing triggers for initramfs-tools (0.140ubuntu13.4) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for dbus (1.12.20-2ubuntu4.1) ...
+Processing triggers for install-info (6.8-4build1) ...
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -208,7 +127,7 @@ The following NEW packages will be installed:
 Need to get 64.5 MB of archives.
 After this operation, 210 MB of additional disk space will be used.
 Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.8 [20.3 kB]
-Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-119.129 [1318 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-124.134 [1322 kB]
 Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcrypt-dev amd64 1:4.4.27-1 [112 kB]
 Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu6 [68.5 kB]
 Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtirpc-dev amd64 1.3.2-2ubuntu0.1 [192 kB]
@@ -254,7 +173,7 @@ Get:44 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubun
 Get:45 http://archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2 [70.9 kB]
 Get:46 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1 [29.2 kB]
 Get:47 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libwebp7 amd64 1.2.2-2ubuntu0.22.04.2 [206 kB]
-Get:48 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.9 [185 kB]
+Get:48 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.10 [185 kB]
 Get:49 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.2 [36.7 kB]
 Get:50 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgd3 amd64 2.3.0-2ubuntu2 [129 kB]
 Get:51 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-devtools amd64 2.35-0ubuntu3.8 [28.9 kB]
@@ -262,14 +181,14 @@ Get:52 http://archive.ubuntu.com/ubuntu jammy/main amd64 libfile-fcntllock-perl 
 Get:53 http://archive.ubuntu.com/ubuntu jammy/main amd64 manpages-dev all 5.10-1ubuntu1 [2309 kB]
 Get:54 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 unzip amd64 6.0-26ubuntu3.2 [175 kB]
 Get:55 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 zlib1g-dev amd64 1:1.2.11.dfsg-2ubuntu9.2 [164 kB]
-Fetched 64.5 MB in 3s (22.7 MB/s)
+Fetched 64.5 MB in 3s (22.3 MB/s)
 Selecting previously unselected package libc-dev-bin.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 33962 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 34039 files and directories currently installed.)
 Preparing to unpack .../00-libc-dev-bin_2.35-0ubuntu3.8_amd64.deb ...
 Unpacking libc-dev-bin (2.35-0ubuntu3.8) ...
 Selecting previously unselected package linux-libc-dev:amd64.
-Preparing to unpack .../01-linux-libc-dev_5.15.0-119.129_amd64.deb ...
-Unpacking linux-libc-dev:amd64 (5.15.0-119.129) ...
+Preparing to unpack .../01-linux-libc-dev_5.15.0-124.134_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-124.134) ...
 Selecting previously unselected package libcrypt-dev:amd64.
 Preparing to unpack .../02-libcrypt-dev_1%3a4.4.27-1_amd64.deb ...
 Unpacking libcrypt-dev:amd64 (1:4.4.27-1) ...
@@ -406,8 +325,8 @@ Selecting previously unselected package libwebp7:amd64.
 Preparing to unpack .../46-libwebp7_1.2.2-2ubuntu0.22.04.2_amd64.deb ...
 Unpacking libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...
 Selecting previously unselected package libtiff5:amd64.
-Preparing to unpack .../47-libtiff5_4.3.0-6ubuntu0.9_amd64.deb ...
-Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.9) ...
+Preparing to unpack .../47-libtiff5_4.3.0-6ubuntu0.10_amd64.deb ...
+Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
 Selecting previously unselected package libxpm4:amd64.
 Preparing to unpack .../48-libxpm4_1%3a3.5.12-1ubuntu0.22.04.2_amd64.deb ...
 Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.2) ...
@@ -437,7 +356,7 @@ Setting up libfile-fcntllock-perl (0.22-3build7) ...
 Setting up libalgorithm-diff-perl (1.201-1) ...
 Setting up unzip (6.0-26ubuntu3.2) ...
 Setting up libdeflate0:amd64 (1.10-2) ...
-Setting up linux-libc-dev:amd64 (5.15.0-119.129) ...
+Setting up linux-libc-dev:amd64 (5.15.0-124.134) ...
 Setting up libgomp1:amd64 (12.3.0-1ubuntu1~22.04) ...
 Setting up bzip2 (1.0.8-5build1) ...
 Setting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
@@ -475,7 +394,7 @@ Setting up libgcc-11-dev:amd64 (11.4.0-1ubuntu1~22.04) ...
 Setting up gcc-11 (11.4.0-1ubuntu1~22.04) ...
 Setting up cpp (4:11.2.0-1ubuntu1) ...
 Setting up libc6-dev:amd64 (2.35-0ubuntu3.8) ...
-Setting up libtiff5:amd64 (4.3.0-6ubuntu0.9) ...
+Setting up libtiff5:amd64 (4.3.0-6ubuntu0.10) ...
 Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
 Setting up gcc (4:11.2.0-1ubuntu1) ...
 Setting up libgd3:amd64 (2.3.0-2ubuntu2) ...
@@ -489,14 +408,14 @@ Setting up build-essential (12.9ubuntu3) ...
 Processing triggers for man-db (2.10.2-1) ...
 Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
 
-Welcome to Gradle 8.8!
+Welcome to Gradle 8.10.2!
 
 Here are the highlights of this release:
- - Running Gradle on Java 22
- - Configurable Gradle daemon JVM
- - Improved IDE performance for large projects
+ - Support for Java 23
+ - Faster configuration cache
+ - Better configuration cache reports
 
-For more details see https://docs.gradle.org/8.8/release-notes.html
+For more details see https://docs.gradle.org/8.10.2/release-notes.html
 
 Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
@@ -508,7 +427,9 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :buildSrc:classes
 > Task :buildSrc:jar
 > Task :lib:compileJava
+
 > Task :compileJava
+
 > Task :processResources
 > Task :classes
 > Task :jar
@@ -533,7 +454,7 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 > Task :lib:check
 > Task :lib:build
 
-BUILD SUCCESSFUL in 1m 51s
+BUILD SUCCESSFUL in 1m 45s
 16 actionable tasks: 16 executed
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
 > Task :buildSrc:compileKotlin UP-TO-DATE
@@ -591,7 +512,7 @@ BUILD SUCCESSFUL in 1s
 > Task :classes UP-TO-DATE
 > Task :fatJar
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 14s
 9 actionable tasks: 2 executed, 7 up-to-date
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors
 > Task :buildSrc:compileKotlin UP-TO-DATE
@@ -780,7 +701,7 @@ BUILD SUCCESSFUL in 2s
 [native-image-plugin] GraalVM uses toolchain detection. Selected:
 [native-image-plugin]    - language version: 21
 [native-image-plugin]    - vendor: Oracle
-[native-image-plugin]    - runtime version: 21.0.4+8-LTS-jvmci-23.1-b41
+[native-image-plugin]    - runtime version: 21.0.5+9-LTS-jvmci-23.1-b48
 [native-image-plugin] Native Image executable path: /root/graalvm-jdk/lib/svm/bin/native-image
 ========================================================================================================================
 GraalVM Native Image: Generating 'signal-cli' (executable)...
@@ -790,8 +711,8 @@ https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/B
 ------------------------------------------------------------------------------------------------------------------------
 The URL protocol jar is not tested and might not work as expected.
 Supported URL protocols enabled by default: file,resource. Supported URL protocols available on demand: http,https.
-[1/8] Initializing...                                                                                   (11.4s @ 0.15GB)
- Java version: 21.0.4+8-LTS, vendor version: Oracle GraalVM 21.0.4+8.1
+[1/8] Initializing...                                                                                   (10.8s @ 0.15GB)
+ Java version: 21.0.5+9-LTS, vendor version: Oracle GraalVM 21.0.5+9.1
  Graal compiler: optimization level: 2, target machine: x86-64-v2, PGO: ML-inferred
  C compiler: gcc (linux, x86_64, 11.4.0)
  Garbage collector: Serial GC (max heap size: 80% of RAM)
@@ -802,37 +723,36 @@ Supported URL protocols enabled by default: file,resource. Supported URL protoco
 Build resources:
  - 7.35GB of memory (75.6% of 9.73GB system memory, determined at start)
  - 4 thread(s) (100.0% of 4 available processor(s), determined at start)
-Found pending operations, continuing analysis.
-[2/8] Performing analysis...  [******]                                                                 (113.0s @ 2.00GB)
-   18,377 reachable types   (89.8% of   20,462 total)
-   29,805 reachable fields  (67.9% of   43,927 total)
-  100,272 reachable methods (63.9% of  156,919 total)
-    5,726 types, 1,489 fields, and 5,814 methods registered for reflection
-      128 types,    86 fields, and   132 methods registered for JNI access
+[2/8] Performing analysis...  [******]                                                                 (114.8s @ 1.78GB)
+   18,460 reachable types   (89.8% of   20,554 total)
+   29,928 reachable fields  (67.8% of   44,115 total)
+  100,826 reachable methods (64.0% of  157,494 total)
+    5,746 types, 1,507 fields, and 5,967 methods registered for reflection
+      128 types,    85 fields, and   132 methods registered for JNI access
         4 native libraries: dl, pthread, rt, z
-[3/8] Building universe...                                                                              (15.3s @ 2.38GB)
-[4/8] Parsing methods...      [******]                                                                  (33.8s @ 1.40GB)
-[5/8] Inlining methods...     [***]                                                                      (4.5s @ 2.37GB)
-[6/8] Compiling methods...    [*************]                                                          (187.8s @ 3.37GB)
-[7/8] Layouting methods...    [****]                                                                    (17.5s @ 2.43GB)
-[8/8] Creating image...       [****]                                                                    (17.9s @ 3.29GB)
-  50.98MB (31.86%) for code area:    57,149 compilation units
- 105.79MB (66.11%) for image heap:  463,573 objects and 673 resources
-   3.25MB ( 2.03%) for other data
- 160.02MB in total
+[3/8] Building universe...                                                                              (16.0s @ 2.40GB)
+[4/8] Parsing methods...      [******]                                                                  (32.5s @ 3.33GB)
+[5/8] Inlining methods...     [***]                                                                      (6.8s @ 2.13GB)
+[6/8] Compiling methods...    [*************]                                                          (187.9s @ 3.47GB)
+[7/8] Laying out methods...   [****]                                                                    (16.9s @ 2.55GB)
+[8/8] Creating image...       [****]                                                                    (17.9s @ 3.42GB)
+  51.37MB (26.16%) for code area:    57,464 compilation units
+ 141.73MB (72.17%) for image heap:  466,453 objects and 676 resources
+   3.27MB ( 1.67%) for other data
+ 196.38MB in total
 ------------------------------------------------------------------------------------------------------------------------
 Top 10 origins of code area:                                Top 10 object types in image heap:
-  13.98MB java.base                                           68.24MB byte[] for embedded resources
-   5.73MB bcprov-jdk18on-1.78.1.jar                           14.38MB byte[] for code metadata
-   4.85MB svm.jar (Native Image)                               7.54MB byte[] for java.lang.String
-   4.47MB kotlin-reflect-1.9.20.jar                            3.50MB java.lang.String
-   3.96MB java.xml                                             3.39MB java.lang.Class
-   3.04MB signal-service-java-2.15.3_unofficial_107.jar        1.54MB byte[] for reflection metadata
-   2.41MB lib.jar                                            893.75kB byte[] for general heap data
-   2.36MB jackson-databind-2.17.2.jar                        861.42kB com.oracle.svm.core.hub.DynamicHubCompanion
-   1.32MB signal-cli-0.13.6.jar                              536.50kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
- 783.86kB okhttp-4.12.0.jar                                  501.27kB java.lang.String[]
-   7.69MB for 46 more packages                                 4.48MB for 3745 more object types
+  14.04MB java.base                                          104.06MB byte[] for embedded resources
+   5.73MB bcprov-jdk18on-1.78.1.jar                           14.48MB byte[] for code metadata
+   4.84MB svm.jar (Native Image)                               7.57MB byte[] for java.lang.String
+   4.47MB kotlin-reflect-1.9.20.jar                            3.52MB java.lang.String
+   3.96MB java.xml                                             3.41MB java.lang.Class
+   3.05MB signal-service-java-2.15.3_unofficial_110.jar        1.56MB byte[] for reflection metadata
+   2.47MB lib.jar                                            899.76kB byte[] for general heap data
+   2.39MB jackson-databind-2.18.0.jar                        865.31kB com.oracle.svm.core.hub.DynamicHubCompanion
+   1.32MB signal-cli-0.13.9.jar                              539.09kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
+ 791.70kB okhttp-4.12.0.jar                                  503.32kB java.lang.String[]
+   7.93MB for 46 more packages                                 4.40MB for 3761 more object types
                               Use '-H:+BuildReport' to create a report with more details.
 ------------------------------------------------------------------------------------------------------------------------
 Security report:
@@ -846,12 +766,12 @@ Recommendations:
  HEAP: Set max heap for improved and more predictable memory usage.
  QBM:  Use the quick build mode ('-Ob') to speed up builds during development.
 ------------------------------------------------------------------------------------------------------------------------
-                       36.5s (9.0% of total time) in 215 GCs | Peak RSS: 5.41GB | CPU load: 3.54
+                       39.2s (9.6% of total time) in 301 GCs | Peak RSS: 5.57GB | CPU load: 3.56
 ------------------------------------------------------------------------------------------------------------------------
 Produced artifacts:
  /root/signal-cli/build/native/nativeCompile/signal-cli (executable)
 ========================================================================================================================
-Finished generating 'signal-cli' in 6m 43s.
+Finished generating 'signal-cli' in 6m 45s.
 [native-image-plugin] Native Image written to: /root/signal-cli/build/native/nativeCompile
 
 BUILD SUCCESSFUL in 6m 51s

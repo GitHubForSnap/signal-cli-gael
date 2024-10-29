@@ -40,6 +40,18 @@ signal-cli-gael.signal-cli-from-stdin
 
 `sudo ln -s /usr/sbin/sendmail2signal /usr/sbin/sendmail`
 
+**2024-10-29**
+* v0.13.9 built for x86-64-v2
+
+**2024-10-27**
+* v0.13.8 built for x86-64-v2
+
+**2024-09-29**
+* v0.13.7 built for x86-64-v2
+
+**2024-09-09**
+* v0.13.6 built for x86-64-v2
+
 **2024-07-26**
 * v0.13.5 built for x86-64-v2
 
