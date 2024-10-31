@@ -1,6 +1,6 @@
 name: signal-cli-gael
-version: "v0.13.9"
-base: core22
+version: "v0.13.9-core24"
+base: core24
 summary: Signal-cli
 description: |
   Signal-cli is a commandline interface for the Signal messenger. It supports registering, verifying, sending and receiving messages. signal-cli uses a patched libsignal-service-java, extracted from the Signal-Android source code. For registering you need a phone number where you can receive SMS or incoming calls.
@@ -10,8 +10,8 @@ description: |
 grade: stable 
 confinement: strict
 
-architectures:
-  - build-on: amd64
+platforms:
+  amd64:
 
 license: "GPL-3.0-or-later"
 

@@ -40,6 +40,9 @@ signal-cli-gael.signal-cli-from-stdin
 
 `sudo ln -s /usr/sbin/sendmail2signal /usr/sbin/sendmail`
 
+**2024-11-31**
+* Switching to core24
+
 **2024-10-29**
 * v0.13.9 built for x86-64-v2
 
