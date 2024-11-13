@@ -6,12 +6,12 @@ set -ex
 sed -i "s/#\$nrconf{restart} = 'i';/\$nrconf{restart} = 'a';/" /etc/needrestart/needrestart.conf
 
 # Clean up leftovers
-rm -rf gradle graalvm-jdk native-image.properties signal-cli
+rm -f gradle graalvm-jdk native-image.properties signal-cli
 
 # Set up versions
-SIGNAL_CLI_VERSION=v0.13.9
-GRADLE_VERSION=8.10.2
-GRAALVM_VERSION=21
+SIGNAL_CLI_VERSION="v0.13.9"
+GRADLE_VERSION="8.11"
+GRAALVM_VERSION="21"
 
 # Update the container & install the required tools
 apt-get update 2>/dev/null
@@ -21,13 +21,13 @@ apt-get -y install wget unzip build-essential zlib1g-dev
 # Download Gradle & GraalVM
 wget --quiet -O gradle.zip https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip
 unzip -q gradle.zip
-rm gradle.zip
+rm -f gradle.zip
 mv gradle-${GRADLE_VERSION} gradle
 
 wget --quiet -O graalvm-jdk.tar.gz https://download.oracle.com/graalvm/${GRAALVM_VERSION}/latest/graalvm-jdk-${GRAALVM_VERSION}_linux-x64_bin.tar.gz
 tar xzf graalvm-jdk.tar.gz
-rm graalvm-jdk.tar.gz
-mv graalvm-jdk* graalvm-jdk
+rm -f graalvm-jdk.tar.gz
+mv -f graalvm-jdk* graalvm-jdk
 
 export PATH=`realpath gradle/bin`:`realpath graalvm-jdk`/bin:$PATH
 

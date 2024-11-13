@@ -13,7 +13,7 @@ lxc exec signal-cli-gael -- /bin/bash -c "/root/build.sh > build.log"
 
 lxc file pull signal-cli-gael/root/build.log ${BUILD_DIR}
 
-rm ${TARGET_DIR}/signal-cli
+rm -f ${TARGET_DIR}/signal-cli
 lxc file pull signal-cli-gael/root/signal-cli/build/native/nativeCompile/signal-cli ${TARGET_DIR}/signal-cli
 
 lxc stop signal-cli-gael

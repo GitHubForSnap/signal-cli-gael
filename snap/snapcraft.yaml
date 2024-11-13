@@ -1,11 +1,11 @@
 name: signal-cli-gael
 version: "v0.13.9-core24"
 base: core24
-summary: Signal-cli
+summary: signal-cli
 description: |
-  Signal-cli is a commandline interface for the Signal messenger. It supports registering, verifying, sending and receiving messages. signal-cli uses a patched libsignal-service-java, extracted from the Signal-Android source code. For registering you need a phone number where you can receive SMS or incoming calls.
+  signal-cli is a commandline interface for the Signal messenger. It supports registering, verifying, sending and receiving messages. signal-cli uses a patched libsignal-service-java, extracted from the Signal-Android source code. For registering you need a phone number where you can receive SMS or incoming calls.
 
-  Signal-cli is primarily intended to be used on servers to notify admins of important events. For this use-case, it has a daemon mode with D-BUS interface (man page) and JSON-RPC interface (documentation). For the JSON-RPC interface there's also a simple example client, written in Rust.
+  signal-cli is primarily intended to be used on servers to notify admins of important events. For this use-case, it has a daemon mode with D-BUS interface (man page) and JSON-RPC interface (documentation). For the JSON-RPC interface there's also a simple example client, written in Rust.
 
 grade: stable 
 confinement: strict
