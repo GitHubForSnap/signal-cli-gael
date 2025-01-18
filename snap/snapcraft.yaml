@@ -1,5 +1,5 @@
 name: signal-cli-gael
-version: "v0.13.10"
+version: "v0.13.12"
 base: core24
 summary: signal-cli
 description: |
