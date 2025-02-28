@@ -9,8 +9,8 @@ sed -i "s/#\$nrconf{restart} = 'i';/\$nrconf{restart} = 'a';/" /etc/needrestart/
 rm -f gradle graalvm-jdk native-image.properties signal-cli
 
 # Set up versions
-SIGNAL_CLI_VERSION="v0.13.12"
-GRADLE_VERSION="8.12.1"
+SIGNAL_CLI_VERSION="v0.13.13"
+GRADLE_VERSION="8.13"
 GRAALVM_VERSION="21"
 
 # Update the container & install the required tools
