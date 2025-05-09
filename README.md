@@ -40,6 +40,12 @@ signal-cli-gael.signal-cli-from-stdin
 
 `sudo ln -s /usr/sbin/sendmail2signal /usr/sbin/sendmail`
 
+**2025-05-09**
+* v0.13.15 built for x86-64-v2
+
+**2025-04-27**
+* Updated Gradle to v8.14.0
+
 **2025-04-06**
 * v0.13.14 built for x86-64-v2
 
