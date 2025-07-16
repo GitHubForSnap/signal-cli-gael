@@ -9,7 +9,7 @@ sed -i "s/#\$nrconf{restart} = 'i';/\$nrconf{restart} = 'a';/" /etc/needrestart/
 rm -f gradle graalvm-jdk native-image.properties signal-cli
 
 # Set up versions
-SIGNAL_CLI_VERSION="v0.13.17"
+SIGNAL_CLI_VERSION="v0.13.18"
 GRADLE_VERSION="8.14.3"
 GRAALVM_VERSION="21"
 
