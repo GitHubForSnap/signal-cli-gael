@@ -14,7 +14,7 @@ vi ./snap/snapcraft.yaml
 vi README.md
 
 # Create the snap
-snapcraft --verbose
+snapcraft pack --verbose
 
 # Export credentials
 export SNAPCRAFT_STORE_CREDENTIALS=$(cat snapcraft_creds.txt)
