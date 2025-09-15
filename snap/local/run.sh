@@ -1,6 +1,6 @@
 #!/bin/bash
 
-lxc launch ubuntu:22.04 signal-cli-gael
+lxc launch ubuntu:24.04 signal-cli-gael
 
 cd "$(dirname "$0")"
 
