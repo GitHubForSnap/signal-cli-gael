@@ -1,49 +1,49 @@
 Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
 Ign:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
-Ign:3 http://security.ubuntu.com/ubuntu noble-security InRelease
-Ign:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Ign:3 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Ign:4 http://security.ubuntu.com/ubuntu noble-security InRelease
 Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
-Ign:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Ign:4 http://security.ubuntu.com/ubuntu noble-security InRelease
 Ign:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
-Ign:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
-Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Ign:3 http://archive.ubuntu.com/ubuntu noble-backports InRelease
 Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
 Get:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
 Get:5 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
-Get:6 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1143 kB]
+Get:6 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1164 kB]
 Get:7 http://archive.ubuntu.com/ubuntu noble/universe Translation-en [5982 kB]
-Get:8 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [195 kB]
-Get:9 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
-Get:10 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [8748 B]
-Get:11 http://archive.ubuntu.com/ubuntu noble/universe amd64 Components [3871 kB]
-Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [880 kB]
-Get:13 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [195 kB]
-Get:14 http://archive.ubuntu.com/ubuntu noble/universe amd64 c-n-f Metadata [301 kB]
-Get:15 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [269 kB]
-Get:16 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
-Get:17 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [18.0 kB]
-Get:18 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1815 kB]
-Get:19 http://archive.ubuntu.com/ubuntu noble/multiverse Translation-en [118 kB]
-Get:20 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Components [35.0 kB]
-Get:21 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 c-n-f Metadata [8328 B]
-Get:22 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1415 kB]
-Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [278 kB]
-Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
-Get:25 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [15.2 kB]
-Get:26 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1484 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/universe amd64 Components [3871 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble/universe amd64 c-n-f Metadata [301 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [269 kB]
+Get:11 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [197 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/multiverse Translation-en [118 kB]
+Get:13 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Components [35.0 kB]
+Get:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [8744 B]
+Get:16 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 c-n-f Metadata [8328 B]
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1436 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [880 kB]
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [281 kB]
+Get:20 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [195 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+Get:22 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [15.3 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1485 kB]
+Get:24 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.3 kB]
+Get:25 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [18.0 kB]
+Get:26 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1855 kB]
 Get:27 http://archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [299 kB]
-Get:28 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [408 kB]
-Get:29 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [377 kB]
+Get:28 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [377 kB]
+Get:29 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [419 kB]
 Get:30 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [31.1 kB]
-Get:31 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1901 kB]
+Get:31 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1941 kB]
 Get:32 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
-Get:33 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [496 B]
+Get:33 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 c-n-f Metadata [520 B]
 Get:34 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [28.0 kB]
-Get:35 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [426 kB]
-Get:36 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [5228 B]
-Get:37 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
-Get:38 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [452 B]
+Get:35 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [5228 B]
+Get:36 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+Get:37 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [384 B]
+Get:38 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [436 kB]
 Get:39 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
 Get:40 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 c-n-f Metadata [544 B]
 Get:41 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [32.0 kB]
@@ -52,7 +52,7 @@ Get:43 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Component
 Get:44 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [488 B]
 Get:45 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [39.9 kB]
 Get:46 http://archive.ubuntu.com/ubuntu noble-backports/main Translation-en [9152 B]
-Get:47 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7060 B]
+Get:47 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7052 B]
 Get:48 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [272 B]
 Get:49 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [30.2 kB]
 Get:50 http://archive.ubuntu.com/ubuntu noble-backports/universe Translation-en [17.4 kB]
@@ -62,114 +62,166 @@ Get:53 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Compone
 Get:54 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 c-n-f Metadata [116 B]
 Get:55 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
 Get:56 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 c-n-f Metadata [116 B]
-Fetched 37.3 MB in 9s (3999 kB/s)
+Fetched 37.5 MB in 10s (3727 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Reading state information...
 Calculating upgrade...
-The following upgrades have been deferred due to phasing:
-  dpkg landscape-common systemd-hwe-hwdb
 The following packages will be upgraded:
-  bind9-dnsutils bind9-host bind9-libs coreutils fwupd libfwupd2
-  libpython3.12-minimal libpython3.12-stdlib libpython3.12t64 libsqlite3-0
-  libudisks2-0 libxml2 openssh-client openssh-server openssh-sftp-server
-  powermgmt-base python3-software-properties python3.12 python3.12-minimal
-  software-properties-common udisks2 vim vim-common vim-runtime vim-tiny xxd
-26 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
-Need to get 29.7 MB of archives.
-After this operation, 18.4 kB of additional disk space will be used.
+  bind9-dnsutils bind9-host bind9-libs coreutils dpkg fwupd landscape-common
+  libc-bin libc6 libfwupd2 libpam-modules libpam-modules-bin libpam-runtime
+  libpam0g libpython3.12-minimal libpython3.12-stdlib libpython3.12t64
+  libsqlite3-0 libudisks2-0 libxml2 locales openssh-client openssh-server
+  openssh-sftp-server powermgmt-base python3-software-properties python3.12
+  python3.12-minimal software-properties-common systemd-hwe-hwdb udisks2 vim
+  vim-common vim-runtime vim-tiny xxd
+36 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 39.7 MB of archives.
+After this operation, 20.5 kB of additional disk space will be used.
 Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 coreutils amd64 9.4-3ubuntu6.1 [1413 kB]
-Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12t64 amd64 3.12.3-1ubuntu0.8 [2355 kB]
-Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.8 [651 kB]
-Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.8 [2068 kB]
-Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.8 [2334 kB]
-Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.8 [836 kB]
-Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2.5 [701 kB]
-Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-sftp-server amd64 1:9.6p1-3ubuntu13.14 [37.3 kB]
-Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-server amd64 1:9.6p1-3ubuntu13.14 [510 kB]
-Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-client amd64 1:9.6p1-3ubuntu13.14 [906 kB]
-Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3.5 [763 kB]
-Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim amd64 2:9.1.0016-1ubuntu7.9 [1881 kB]
-Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-common all 2:9.1.0016-1ubuntu7.9 [386 kB]
-Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-tiny amd64 2:9.1.0016-1ubuntu7.9 [803 kB]
-Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-runtime all 2:9.1.0016-1ubuntu7.9 [7281 kB]
-Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 xxd amd64 2:9.1.0016-1ubuntu7.9 [63.8 kB]
-Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-host amd64 1:9.18.39-0ubuntu0.24.04.1 [50.5 kB]
-Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-dnsutils amd64 1:9.18.39-0ubuntu0.24.04.1 [156 kB]
-Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-libs amd64 1:9.18.39-0ubuntu0.24.04.1 [1257 kB]
-Get:20 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 powermgmt-base all 1.37ubuntu0.1 [7650 B]
-Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libfwupd2 amd64 1.9.31-0ubuntu1~24.04.1 [136 kB]
-Get:22 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 fwupd amd64 1.9.31-0ubuntu1~24.04.1 [4592 kB]
-Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 udisks2 amd64 2.10.1-6ubuntu1.3 [297 kB]
-Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libudisks2-0 amd64 2.10.1-6ubuntu1.3 [175 kB]
-Get:25 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 software-properties-common all 0.99.49.3 [14.4 kB]
-Get:26 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-software-properties all 0.99.49.3 [29.9 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dpkg amd64 1.22.6ubuntu6.2 [1281 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6 amd64 2.39-0ubuntu8.6 [3263 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-bin amd64 2.39-0ubuntu8.6 [682 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpam0g amd64 1.5.3-5ubuntu5.5 [67.8 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpam-modules-bin amd64 1.5.3-5ubuntu5.5 [51.9 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpam-modules amd64 1.5.3-5ubuntu5.5 [286 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12t64 amd64 3.12.3-1ubuntu0.8 [2355 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.8 [651 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.8 [2068 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.8 [2334 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.8 [836 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2.5 [701 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-sftp-server amd64 1:9.6p1-3ubuntu13.14 [37.3 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-server amd64 1:9.6p1-3ubuntu13.14 [510 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 openssh-client amd64 1:9.6p1-3ubuntu13.14 [906 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpam-runtime all 1.5.3-5ubuntu5.5 [40.8 kB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3.5 [763 kB]
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 locales all 2.39-0ubuntu8.6 [4229 kB]
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 systemd-hwe-hwdb all 255.1.5 [3518 B]
+Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim amd64 2:9.1.0016-1ubuntu7.9 [1881 kB]
+Get:22 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-common all 2:9.1.0016-1ubuntu7.9 [386 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-tiny amd64 2:9.1.0016-1ubuntu7.9 [803 kB]
+Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 vim-runtime all 2:9.1.0016-1ubuntu7.9 [7281 kB]
+Get:25 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 xxd amd64 2:9.1.0016-1ubuntu7.9 [63.8 kB]
+Get:26 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-host amd64 1:9.18.39-0ubuntu0.24.04.1 [50.5 kB]
+Get:27 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-dnsutils amd64 1:9.18.39-0ubuntu0.24.04.1 [156 kB]
+Get:28 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bind9-libs amd64 1:9.18.39-0ubuntu0.24.04.1 [1257 kB]
+Get:29 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 powermgmt-base all 1.37ubuntu0.1 [7650 B]
+Get:30 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libfwupd2 amd64 1.9.31-0ubuntu1~24.04.1 [136 kB]
+Get:31 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 fwupd amd64 1.9.31-0ubuntu1~24.04.1 [4592 kB]
+Get:32 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 landscape-common amd64 24.02-0ubuntu5.6 [93.2 kB]
+Get:33 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 udisks2 amd64 2.10.1-6ubuntu1.3 [297 kB]
+Get:34 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libudisks2-0 amd64 2.10.1-6ubuntu1.3 [175 kB]
+Get:35 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 software-properties-common all 0.99.49.3 [14.4 kB]
+Get:36 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-software-properties all 0.99.49.3 [29.9 kB]
+Extracting templates from packages: 83%Extracting templates from packages: 100%
 Preconfiguring packages ...
-Fetched 29.7 MB in 2s (16.2 MB/s)
+Fetched 39.7 MB in 1s (61.8 MB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
 Preparing to unpack .../coreutils_9.4-3ubuntu6.1_amd64.deb ...
 Unpacking coreutils (9.4-3ubuntu6.1) over (9.4-3ubuntu6) ...
 Setting up coreutils (9.4-3ubuntu6.1) ...
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
-Preparing to unpack .../00-libpython3.12t64_3.12.3-1ubuntu0.8_amd64.deb ...
+Preparing to unpack .../dpkg_1.22.6ubuntu6.2_amd64.deb ...
+Unpacking dpkg (1.22.6ubuntu6.2) over (1.22.6ubuntu6.1) ...
+Setting up dpkg (1.22.6ubuntu6.2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+Preparing to unpack .../libc6_2.39-0ubuntu8.6_amd64.deb ...
+Unpacking libc6:amd64 (2.39-0ubuntu8.6) over (2.39-0ubuntu8.5) ...
+Setting up libc6:amd64 (2.39-0ubuntu8.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.39-0ubuntu8.6_amd64.deb ...
+Unpacking libc-bin (2.39-0ubuntu8.6) over (2.39-0ubuntu8.5) ...
+Setting up libc-bin (2.39-0ubuntu8.6) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+Preparing to unpack .../libpam0g_1.5.3-5ubuntu5.5_amd64.deb ...
+Unpacking libpam0g:amd64 (1.5.3-5ubuntu5.5) over (1.5.3-5ubuntu5.4) ...
+Setting up libpam0g:amd64 (1.5.3-5ubuntu5.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+Preparing to unpack .../libpam-modules-bin_1.5.3-5ubuntu5.5_amd64.deb ...
+Unpacking libpam-modules-bin (1.5.3-5ubuntu5.5) over (1.5.3-5ubuntu5.4) ...
+Setting up libpam-modules-bin (1.5.3-5ubuntu5.5) ...
+pam_namespace.service is a disabled or a static unit not running, not starting it.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+Preparing to unpack .../libpam-modules_1.5.3-5ubuntu5.5_amd64.deb ...
+Unpacking libpam-modules:amd64 (1.5.3-5ubuntu5.5) over (1.5.3-5ubuntu5.4) ...
+Setting up libpam-modules:amd64 (1.5.3-5ubuntu5.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+Preparing to unpack .../0-libpython3.12t64_3.12.3-1ubuntu0.8_amd64.deb ...
 Unpacking libpython3.12t64:amd64 (3.12.3-1ubuntu0.8) over (3.12.3-1ubuntu0.7) ...
-Preparing to unpack .../01-python3.12_3.12.3-1ubuntu0.8_amd64.deb ...
+Preparing to unpack .../1-python3.12_3.12.3-1ubuntu0.8_amd64.deb ...
 Unpacking python3.12 (3.12.3-1ubuntu0.8) over (3.12.3-1ubuntu0.7) ...
-Preparing to unpack .../02-libpython3.12-stdlib_3.12.3-1ubuntu0.8_amd64.deb ...
+Preparing to unpack .../2-libpython3.12-stdlib_3.12.3-1ubuntu0.8_amd64.deb ...
 Unpacking libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.8) over (3.12.3-1ubuntu0.7) ...
-Preparing to unpack .../03-python3.12-minimal_3.12.3-1ubuntu0.8_amd64.deb ...
+Preparing to unpack .../3-python3.12-minimal_3.12.3-1ubuntu0.8_amd64.deb ...
 Unpacking python3.12-minimal (3.12.3-1ubuntu0.8) over (3.12.3-1ubuntu0.7) ...
-Preparing to unpack .../04-libpython3.12-minimal_3.12.3-1ubuntu0.8_amd64.deb ...
+Preparing to unpack .../4-libpython3.12-minimal_3.12.3-1ubuntu0.8_amd64.deb ...
 Unpacking libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.8) over (3.12.3-1ubuntu0.7) ...
-Preparing to unpack .../05-libsqlite3-0_3.45.1-1ubuntu2.5_amd64.deb ...
+Preparing to unpack .../5-libsqlite3-0_3.45.1-1ubuntu2.5_amd64.deb ...
 Unpacking libsqlite3-0:amd64 (3.45.1-1ubuntu2.5) over (3.45.1-1ubuntu2.4) ...
-Preparing to unpack .../06-openssh-sftp-server_1%3a9.6p1-3ubuntu13.14_amd64.deb ...
+Preparing to unpack .../6-openssh-sftp-server_1%3a9.6p1-3ubuntu13.14_amd64.deb ...
 Unpacking openssh-sftp-server (1:9.6p1-3ubuntu13.14) over (1:9.6p1-3ubuntu13.13) ...
-Preparing to unpack .../07-openssh-server_1%3a9.6p1-3ubuntu13.14_amd64.deb ...
+Preparing to unpack .../7-openssh-server_1%3a9.6p1-3ubuntu13.14_amd64.deb ...
 Unpacking openssh-server (1:9.6p1-3ubuntu13.14) over (1:9.6p1-3ubuntu13.13) ...
-Preparing to unpack .../08-openssh-client_1%3a9.6p1-3ubuntu13.14_amd64.deb ...
+Preparing to unpack .../8-openssh-client_1%3a9.6p1-3ubuntu13.14_amd64.deb ...
 Unpacking openssh-client (1:9.6p1-3ubuntu13.14) over (1:9.6p1-3ubuntu13.13) ...
-Preparing to unpack .../09-libxml2_2.9.14+dfsg-1.3ubuntu3.5_amd64.deb ...
+Preparing to unpack .../9-libpam-runtime_1.5.3-5ubuntu5.5_all.deb ...
+Unpacking libpam-runtime (1.5.3-5ubuntu5.5) over (1.5.3-5ubuntu5.4) ...
+Setting up libpam-runtime (1.5.3-5ubuntu5.5) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+Preparing to unpack .../00-libxml2_2.9.14+dfsg-1.3ubuntu3.5_amd64.deb ...
 Unpacking libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3.5) over (2.9.14+dfsg-1.3ubuntu3.3) ...
-Preparing to unpack .../10-vim_2%3a9.1.0016-1ubuntu7.9_amd64.deb ...
+Preparing to unpack .../01-locales_2.39-0ubuntu8.6_all.deb ...
+Unpacking locales (2.39-0ubuntu8.6) over (2.39-0ubuntu8.5) ...
+Preparing to unpack .../02-systemd-hwe-hwdb_255.1.5_all.deb ...
+Unpacking systemd-hwe-hwdb (255.1.5) over (255.1.4) ...
+Preparing to unpack .../03-vim_2%3a9.1.0016-1ubuntu7.9_amd64.deb ...
 Unpacking vim (2:9.1.0016-1ubuntu7.9) over (2:9.1.0016-1ubuntu7.8) ...
-Preparing to unpack .../11-vim-common_2%3a9.1.0016-1ubuntu7.9_all.deb ...
+Preparing to unpack .../04-vim-common_2%3a9.1.0016-1ubuntu7.9_all.deb ...
 Unpacking vim-common (2:9.1.0016-1ubuntu7.9) over (2:9.1.0016-1ubuntu7.8) ...
-Preparing to unpack .../12-vim-tiny_2%3a9.1.0016-1ubuntu7.9_amd64.deb ...
+Preparing to unpack .../05-vim-tiny_2%3a9.1.0016-1ubuntu7.9_amd64.deb ...
 Unpacking vim-tiny (2:9.1.0016-1ubuntu7.9) over (2:9.1.0016-1ubuntu7.8) ...
-Preparing to unpack .../13-vim-runtime_2%3a9.1.0016-1ubuntu7.9_all.deb ...
+Preparing to unpack .../06-vim-runtime_2%3a9.1.0016-1ubuntu7.9_all.deb ...
 Unpacking vim-runtime (2:9.1.0016-1ubuntu7.9) over (2:9.1.0016-1ubuntu7.8) ...
-Preparing to unpack .../14-xxd_2%3a9.1.0016-1ubuntu7.9_amd64.deb ...
+Preparing to unpack .../07-xxd_2%3a9.1.0016-1ubuntu7.9_amd64.deb ...
 Unpacking xxd (2:9.1.0016-1ubuntu7.9) over (2:9.1.0016-1ubuntu7.8) ...
-Preparing to unpack .../15-bind9-host_1%3a9.18.39-0ubuntu0.24.04.1_amd64.deb ...
+Preparing to unpack .../08-bind9-host_1%3a9.18.39-0ubuntu0.24.04.1_amd64.deb ...
 Unpacking bind9-host (1:9.18.39-0ubuntu0.24.04.1) over (1:9.18.30-0ubuntu0.24.04.2) ...
-Preparing to unpack .../16-bind9-dnsutils_1%3a9.18.39-0ubuntu0.24.04.1_amd64.deb ...
+Preparing to unpack .../09-bind9-dnsutils_1%3a9.18.39-0ubuntu0.24.04.1_amd64.deb ...
 Unpacking bind9-dnsutils (1:9.18.39-0ubuntu0.24.04.1) over (1:9.18.30-0ubuntu0.24.04.2) ...
-Preparing to unpack .../17-bind9-libs_1%3a9.18.39-0ubuntu0.24.04.1_amd64.deb ...
+Preparing to unpack .../10-bind9-libs_1%3a9.18.39-0ubuntu0.24.04.1_amd64.deb ...
 Unpacking bind9-libs:amd64 (1:9.18.39-0ubuntu0.24.04.1) over (1:9.18.30-0ubuntu0.24.04.2) ...
-Preparing to unpack .../18-powermgmt-base_1.37ubuntu0.1_all.deb ...
+Preparing to unpack .../11-powermgmt-base_1.37ubuntu0.1_all.deb ...
 Unpacking powermgmt-base (1.37ubuntu0.1) over (1.37) ...
-Preparing to unpack .../19-libfwupd2_1.9.31-0ubuntu1~24.04.1_amd64.deb ...
+Preparing to unpack .../12-libfwupd2_1.9.31-0ubuntu1~24.04.1_amd64.deb ...
 Unpacking libfwupd2:amd64 (1.9.31-0ubuntu1~24.04.1) over (1.9.30-0ubuntu1~24.04.1) ...
-Preparing to unpack .../20-fwupd_1.9.31-0ubuntu1~24.04.1_amd64.deb ...
+Preparing to unpack .../13-fwupd_1.9.31-0ubuntu1~24.04.1_amd64.deb ...
 Unpacking fwupd (1.9.31-0ubuntu1~24.04.1) over (1.9.30-0ubuntu1~24.04.1) ...
-Preparing to unpack .../21-udisks2_2.10.1-6ubuntu1.3_amd64.deb ...
+Preparing to unpack .../14-landscape-common_24.02-0ubuntu5.6_amd64.deb ...
+Unpacking landscape-common (24.02-0ubuntu5.6) over (24.02-0ubuntu5.3) ...
+Preparing to unpack .../15-udisks2_2.10.1-6ubuntu1.3_amd64.deb ...
 Unpacking udisks2 (2.10.1-6ubuntu1.3) over (2.10.1-6ubuntu1.2) ...
-Preparing to unpack .../22-libudisks2-0_2.10.1-6ubuntu1.3_amd64.deb ...
+Preparing to unpack .../16-libudisks2-0_2.10.1-6ubuntu1.3_amd64.deb ...
 Unpacking libudisks2-0:amd64 (2.10.1-6ubuntu1.3) over (2.10.1-6ubuntu1.2) ...
-Preparing to unpack .../23-software-properties-common_0.99.49.3_all.deb ...
+Preparing to unpack .../17-software-properties-common_0.99.49.3_all.deb ...
 Unpacking software-properties-common (0.99.49.3) over (0.99.49.2) ...
-Preparing to unpack .../24-python3-software-properties_0.99.49.3_all.deb ...
+Preparing to unpack .../18-python3-software-properties_0.99.49.3_all.deb ...
 Unpacking python3-software-properties (0.99.49.3) over (0.99.49.2) ...
 Setting up powermgmt-base (1.37ubuntu0.1) ...
 Setting up openssh-client (1:9.6p1-3ubuntu13.14) ...
 Setting up libsqlite3-0:amd64 (3.45.1-1ubuntu2.5) ...
 Setting up libfwupd2:amd64 (1.9.31-0ubuntu1~24.04.1) ...
 Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.8) ...
+Setting up locales (2.39-0ubuntu8.6) ...
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+Generation complete.
+Setting up landscape-common (24.02-0ubuntu5.6) ...
 Setting up xxd (2:9.1.0016-1ubuntu7.9) ...
 Setting up vim-common (2:9.1.0016-1ubuntu7.9) ...
 Setting up python3-software-properties (0.99.49.3) ...
+Setting up systemd-hwe-hwdb (255.1.5) ...
 Setting up vim-runtime (2:9.1.0016-1ubuntu7.9) ...
 Setting up libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3.5) ...
 Setting up fwupd (1.9.31-0ubuntu1~24.04.1) ...
@@ -218,11 +270,12 @@ Setting up libpython3.12t64:amd64 (3.12.3-1ubuntu0.8) ...
 Setting up bind9-host (1:9.18.39-0ubuntu0.24.04.1) ...
 Setting up vim (2:9.1.0016-1ubuntu7.9) ...
 Setting up bind9-dnsutils (1:9.18.39-0ubuntu0.24.04.1) ...
-Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
 Processing triggers for ufw (0.36.2-6) ...
 Processing triggers for systemd (255.4-1ubuntu8.10) ...
 Processing triggers for man-db (2.12.0-4build2) ...
 Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+Processing triggers for udev (255.4-1ubuntu8.10) ...
 Processing triggers for install-info (7.1-3build2) ...
 Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
 Building dependency tree...
@@ -231,7 +284,7 @@ wget is already the newest version (1.21.4-1ubuntu4.1).
 wget set to manually installed.
 The following additional packages will be installed:
   binutils binutils-common binutils-x86-64-linux-gnu bzip2 cpp cpp-13
-  cpp-13-x86-64-linux-gnu cpp-x86-64-linux-gnu dpkg dpkg-dev fakeroot
+  cpp-13-x86-64-linux-gnu cpp-x86-64-linux-gnu dpkg-dev fakeroot
   fontconfig-config fonts-dejavu-core fonts-dejavu-mono g++ g++-13
   g++-13-x86-64-linux-gnu g++-x86-64-linux-gnu gcc gcc-13 gcc-13-base
   gcc-13-x86-64-linux-gnu gcc-x86-64-linux-gnu libalgorithm-diff-perl
@@ -246,12 +299,12 @@ The following additional packages will be installed:
   linux-libc-dev lto-disabled-list make manpages-dev rpcsvc-proto
 Suggested packages:
   binutils-doc gprofng-gui bzip2-doc cpp-doc gcc-13-locales cpp-13-doc
-  debsig-verify debian-keyring g++-multilib g++-13-multilib gcc-13-doc
-  gcc-multilib autoconf automake libtool flex bison gdb gcc-doc
-  gcc-13-multilib gdb-x86-64-linux-gnu glibc-doc bzr libgd-tools
-  libheif-plugin-x265 libheif-plugin-ffmpegdec libheif-plugin-jpegdec
-  libheif-plugin-jpegenc libheif-plugin-j2kdec libheif-plugin-j2kenc
-  libheif-plugin-rav1e libheif-plugin-svtenc libstdc++-13-doc make-doc zip
+  debian-keyring g++-multilib g++-13-multilib gcc-13-doc gcc-multilib autoconf
+  automake libtool flex bison gdb gcc-doc gcc-13-multilib gdb-x86-64-linux-gnu
+  glibc-doc bzr libgd-tools libheif-plugin-x265 libheif-plugin-ffmpegdec
+  libheif-plugin-jpegdec libheif-plugin-jpegenc libheif-plugin-j2kdec
+  libheif-plugin-j2kenc libheif-plugin-rav1e libheif-plugin-svtenc
+  libstdc++-13-doc make-doc zip
 The following NEW packages will be installed:
   binutils binutils-common binutils-x86-64-linux-gnu build-essential bzip2 cpp
   cpp-13 cpp-13-x86-64-linux-gnu cpp-x86-64-linux-gnu dpkg-dev fakeroot
@@ -268,97 +321,90 @@ The following NEW packages will be installed:
   libsharpyuv0 libstdc++-13-dev libtiff6 libtsan2 libubsan1 libwebp7 libxpm4
   linux-libc-dev lto-disabled-list make manpages-dev rpcsvc-proto unzip
   zlib1g-dev
-The following packages will be upgraded:
-  dpkg
-1 upgraded, 77 newly installed, 0 to remove and 2 not upgraded.
-Need to get 80.8 MB of archives.
+0 upgraded, 77 newly installed, 0 to remove and 0 not upgraded.
+Need to get 79.6 MB of archives.
 After this operation, 271 MB of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dpkg amd64 1.22.6ubuntu6.2 [1281 kB]
-Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 binutils-common amd64 2.42-4ubuntu2.5 [240 kB]
-Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsframe1 amd64 2.42-4ubuntu2.5 [15.5 kB]
-Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libbinutils amd64 2.42-4ubuntu2.5 [577 kB]
-Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libctf-nobfd0 amd64 2.42-4ubuntu2.5 [97.7 kB]
-Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libctf0 amd64 2.42-4ubuntu2.5 [94.5 kB]
-Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgprofng0 amd64 2.42-4ubuntu2.5 [849 kB]
-Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.42-4ubuntu2.5 [2462 kB]
-Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 binutils amd64 2.42-4ubuntu2.5 [18.1 kB]
-Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.5 [20.4 kB]
-Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-83.83 [1906 kB]
-Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 libcrypt-dev amd64 1:4.4.36-4build1 [112 kB]
-Get:13 http://archive.ubuntu.com/ubuntu noble/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu7 [67.4 kB]
-Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.5 [2123 kB]
-Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-13-base amd64 13.3.0-6ubuntu2~24.04 [51.5 kB]
-Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libisl23 amd64 0.26-3build1.1 [680 kB]
-Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libmpc3 amd64 1.3.1-1build1.1 [54.6 kB]
-Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 cpp-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04 [10.7 MB]
-Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 cpp-13 amd64 13.3.0-6ubuntu2~24.04 [1038 B]
-Get:20 http://archive.ubuntu.com/ubuntu noble/main amd64 cpp-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [5326 B]
-Get:21 http://archive.ubuntu.com/ubuntu noble/main amd64 cpp amd64 4:13.2.0-7ubuntu1 [22.4 kB]
-Get:22 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcc1-0 amd64 14.2.0-4ubuntu2~24.04 [48.0 kB]
-Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgomp1 amd64 14.2.0-4ubuntu2~24.04 [148 kB]
-Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libitm1 amd64 14.2.0-4ubuntu2~24.04 [29.7 kB]
-Get:25 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libatomic1 amd64 14.2.0-4ubuntu2~24.04 [10.5 kB]
-Get:26 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libasan8 amd64 14.2.0-4ubuntu2~24.04 [3031 kB]
-Get:27 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblsan0 amd64 14.2.0-4ubuntu2~24.04 [1322 kB]
-Get:28 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libtsan2 amd64 14.2.0-4ubuntu2~24.04 [2772 kB]
-Get:29 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libubsan1 amd64 14.2.0-4ubuntu2~24.04 [1184 kB]
-Get:30 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libhwasan0 amd64 14.2.0-4ubuntu2~24.04 [1641 kB]
-Get:31 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libquadmath0 amd64 14.2.0-4ubuntu2~24.04 [153 kB]
-Get:32 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgcc-13-dev amd64 13.3.0-6ubuntu2~24.04 [2681 kB]
-Get:33 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04 [21.1 MB]
-Get:34 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-13 amd64 13.3.0-6ubuntu2~24.04 [494 kB]
-Get:35 http://archive.ubuntu.com/ubuntu noble/main amd64 gcc-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [1212 B]
-Get:36 http://archive.ubuntu.com/ubuntu noble/main amd64 gcc amd64 4:13.2.0-7ubuntu1 [5018 B]
-Get:37 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libstdc++-13-dev amd64 13.3.0-6ubuntu2~24.04 [2420 kB]
-Get:38 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04 [12.2 MB]
-Get:39 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13 amd64 13.3.0-6ubuntu2~24.04 [16.1 kB]
-Get:40 http://archive.ubuntu.com/ubuntu noble/main amd64 g++-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [964 B]
-Get:41 http://archive.ubuntu.com/ubuntu noble/main amd64 g++ amd64 4:13.2.0-7ubuntu1 [1100 B]
-Get:42 http://archive.ubuntu.com/ubuntu noble/main amd64 make amd64 4.3-4.1build2 [180 kB]
-Get:43 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdpkg-perl all 1.22.6ubuntu6.2 [269 kB]
-Get:44 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bzip2 amd64 1.0.8-5.1build0.1 [34.5 kB]
-Get:45 http://archive.ubuntu.com/ubuntu noble/main amd64 lto-disabled-list all 47 [12.4 kB]
-Get:46 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dpkg-dev all 1.22.6ubuntu6.2 [1074 kB]
-Get:47 http://archive.ubuntu.com/ubuntu noble/main amd64 build-essential amd64 12.10ubuntu1 [4928 B]
-Get:48 http://archive.ubuntu.com/ubuntu noble/main amd64 libfakeroot amd64 1.33-1 [32.4 kB]
-Get:49 http://archive.ubuntu.com/ubuntu noble/main amd64 fakeroot amd64 1.33-1 [67.2 kB]
-Get:50 http://archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-mono all 2.37-8 [502 kB]
-Get:51 http://archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-core all 2.37-8 [835 kB]
-Get:52 http://archive.ubuntu.com/ubuntu noble/main amd64 fontconfig-config amd64 2.15.0-1.1ubuntu2 [37.3 kB]
-Get:53 http://archive.ubuntu.com/ubuntu noble/main amd64 libalgorithm-diff-perl all 1.201-1 [41.8 kB]
-Get:54 http://archive.ubuntu.com/ubuntu noble/main amd64 libalgorithm-diff-xs-perl amd64 0.04-8build3 [11.2 kB]
-Get:55 http://archive.ubuntu.com/ubuntu noble/main amd64 libalgorithm-merge-perl all 0.08-5 [11.4 kB]
-Get:56 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libaom3 amd64 3.8.2-2ubuntu0.1 [1941 kB]
-Get:57 http://archive.ubuntu.com/ubuntu noble/main amd64 libfreetype6 amd64 2.13.2+dfsg-1build3 [402 kB]
-Get:58 http://archive.ubuntu.com/ubuntu noble/main amd64 libfontconfig1 amd64 2.15.0-1.1ubuntu2 [139 kB]
-Get:59 http://archive.ubuntu.com/ubuntu noble/main amd64 libsharpyuv0 amd64 1.3.2-0.4build3 [15.8 kB]
-Get:60 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomdec amd64 1.17.6-1ubuntu4.1 [10.4 kB]
-Get:61 http://archive.ubuntu.com/ubuntu noble/main amd64 libde265-0 amd64 1.0.15-1build3 [166 kB]
-Get:62 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-libde265 amd64 1.17.6-1ubuntu4.1 [8176 B]
-Get:63 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif1 amd64 1.17.6-1ubuntu4.1 [275 kB]
-Get:64 http://archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
-Get:65 http://archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
-Get:66 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdeflate0 amd64 1.19-1build1.1 [43.9 kB]
-Get:67 http://archive.ubuntu.com/ubuntu noble/main amd64 libjbig0 amd64 2.1-6.1ubuntu2 [29.7 kB]
-Get:68 http://archive.ubuntu.com/ubuntu noble/main amd64 liblerc4 amd64 4.0.0+ds-4ubuntu2 [179 kB]
-Get:69 http://archive.ubuntu.com/ubuntu noble/main amd64 libwebp7 amd64 1.3.2-0.4build3 [230 kB]
-Get:70 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libtiff6 amd64 4.5.1+git230720-4ubuntu2.3 [199 kB]
-Get:71 http://archive.ubuntu.com/ubuntu noble/main amd64 libxpm4 amd64 1:3.5.17-1build2 [36.5 kB]
-Get:72 http://archive.ubuntu.com/ubuntu noble/main amd64 libgd3 amd64 2.3.3-9ubuntu5 [128 kB]
-Get:73 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-devtools amd64 2.39-0ubuntu8.5 [29.3 kB]
-Get:74 http://archive.ubuntu.com/ubuntu noble/main amd64 libfile-fcntllock-perl amd64 0.22-4ubuntu5 [30.7 kB]
-Get:75 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomenc amd64 1.17.6-1ubuntu4.1 [14.7 kB]
-Get:76 http://archive.ubuntu.com/ubuntu noble/main amd64 manpages-dev all 6.7-2 [2013 kB]
-Get:77 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 unzip amd64 6.0-28ubuntu4.1 [174 kB]
-Get:78 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 zlib1g-dev amd64 1:1.3.dfsg-3.1ubuntu2.1 [894 kB]
-Extracting templates from packages: 38%Extracting templates from packages: 76%Extracting templates from packages: 100%
-Fetched 80.8 MB in 4s (21.5 MB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
-Preparing to unpack .../dpkg_1.22.6ubuntu6.2_amd64.deb ...
-Unpacking dpkg (1.22.6ubuntu6.2) over (1.22.6ubuntu6.1) ...
-Setting up dpkg (1.22.6ubuntu6.2) ...
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 binutils-common amd64 2.42-4ubuntu2.5 [240 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsframe1 amd64 2.42-4ubuntu2.5 [15.5 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libbinutils amd64 2.42-4ubuntu2.5 [577 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libctf-nobfd0 amd64 2.42-4ubuntu2.5 [97.7 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libctf0 amd64 2.42-4ubuntu2.5 [94.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgprofng0 amd64 2.42-4ubuntu2.5 [849 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.42-4ubuntu2.5 [2462 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 binutils amd64 2.42-4ubuntu2.5 [18.1 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.6 [20.4 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-84.84 [1921 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 libcrypt-dev amd64 1:4.4.36-4build1 [112 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu7 [67.4 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.6 [2125 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-13-base amd64 13.3.0-6ubuntu2~24.04 [51.5 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libisl23 amd64 0.26-3build1.1 [680 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libmpc3 amd64 1.3.1-1build1.1 [54.6 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 cpp-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04 [10.7 MB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 cpp-13 amd64 13.3.0-6ubuntu2~24.04 [1038 B]
+Get:19 http://archive.ubuntu.com/ubuntu noble/main amd64 cpp-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [5326 B]
+Get:20 http://archive.ubuntu.com/ubuntu noble/main amd64 cpp amd64 4:13.2.0-7ubuntu1 [22.4 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcc1-0 amd64 14.2.0-4ubuntu2~24.04 [48.0 kB]
+Get:22 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgomp1 amd64 14.2.0-4ubuntu2~24.04 [148 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libitm1 amd64 14.2.0-4ubuntu2~24.04 [29.7 kB]
+Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libatomic1 amd64 14.2.0-4ubuntu2~24.04 [10.5 kB]
+Get:25 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libasan8 amd64 14.2.0-4ubuntu2~24.04 [3031 kB]
+Get:26 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 liblsan0 amd64 14.2.0-4ubuntu2~24.04 [1322 kB]
+Get:27 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libtsan2 amd64 14.2.0-4ubuntu2~24.04 [2772 kB]
+Get:28 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libubsan1 amd64 14.2.0-4ubuntu2~24.04 [1184 kB]
+Get:29 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libhwasan0 amd64 14.2.0-4ubuntu2~24.04 [1641 kB]
+Get:30 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libquadmath0 amd64 14.2.0-4ubuntu2~24.04 [153 kB]
+Get:31 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgcc-13-dev amd64 13.3.0-6ubuntu2~24.04 [2681 kB]
+Get:32 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04 [21.1 MB]
+Get:33 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-13 amd64 13.3.0-6ubuntu2~24.04 [494 kB]
+Get:34 http://archive.ubuntu.com/ubuntu noble/main amd64 gcc-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [1212 B]
+Get:35 http://archive.ubuntu.com/ubuntu noble/main amd64 gcc amd64 4:13.2.0-7ubuntu1 [5018 B]
+Get:36 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libstdc++-13-dev amd64 13.3.0-6ubuntu2~24.04 [2420 kB]
+Get:37 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13-x86-64-linux-gnu amd64 13.3.0-6ubuntu2~24.04 [12.2 MB]
+Get:38 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13 amd64 13.3.0-6ubuntu2~24.04 [16.1 kB]
+Get:39 http://archive.ubuntu.com/ubuntu noble/main amd64 g++-x86-64-linux-gnu amd64 4:13.2.0-7ubuntu1 [964 B]
+Get:40 http://archive.ubuntu.com/ubuntu noble/main amd64 g++ amd64 4:13.2.0-7ubuntu1 [1100 B]
+Get:41 http://archive.ubuntu.com/ubuntu noble/main amd64 make amd64 4.3-4.1build2 [180 kB]
+Get:42 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdpkg-perl all 1.22.6ubuntu6.2 [269 kB]
+Get:43 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bzip2 amd64 1.0.8-5.1build0.1 [34.5 kB]
+Get:44 http://archive.ubuntu.com/ubuntu noble/main amd64 lto-disabled-list all 47 [12.4 kB]
+Get:45 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 dpkg-dev all 1.22.6ubuntu6.2 [1074 kB]
+Get:46 http://archive.ubuntu.com/ubuntu noble/main amd64 build-essential amd64 12.10ubuntu1 [4928 B]
+Get:47 http://archive.ubuntu.com/ubuntu noble/main amd64 libfakeroot amd64 1.33-1 [32.4 kB]
+Get:48 http://archive.ubuntu.com/ubuntu noble/main amd64 fakeroot amd64 1.33-1 [67.2 kB]
+Get:49 http://archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-mono all 2.37-8 [502 kB]
+Get:50 http://archive.ubuntu.com/ubuntu noble/main amd64 fonts-dejavu-core all 2.37-8 [835 kB]
+Get:51 http://archive.ubuntu.com/ubuntu noble/main amd64 fontconfig-config amd64 2.15.0-1.1ubuntu2 [37.3 kB]
+Get:52 http://archive.ubuntu.com/ubuntu noble/main amd64 libalgorithm-diff-perl all 1.201-1 [41.8 kB]
+Get:53 http://archive.ubuntu.com/ubuntu noble/main amd64 libalgorithm-diff-xs-perl amd64 0.04-8build3 [11.2 kB]
+Get:54 http://archive.ubuntu.com/ubuntu noble/main amd64 libalgorithm-merge-perl all 0.08-5 [11.4 kB]
+Get:55 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libaom3 amd64 3.8.2-2ubuntu0.1 [1941 kB]
+Get:56 http://archive.ubuntu.com/ubuntu noble/main amd64 libfreetype6 amd64 2.13.2+dfsg-1build3 [402 kB]
+Get:57 http://archive.ubuntu.com/ubuntu noble/main amd64 libfontconfig1 amd64 2.15.0-1.1ubuntu2 [139 kB]
+Get:58 http://archive.ubuntu.com/ubuntu noble/main amd64 libsharpyuv0 amd64 1.3.2-0.4build3 [15.8 kB]
+Get:59 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomdec amd64 1.17.6-1ubuntu4.1 [10.4 kB]
+Get:60 http://archive.ubuntu.com/ubuntu noble/main amd64 libde265-0 amd64 1.0.15-1build3 [166 kB]
+Get:61 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-libde265 amd64 1.17.6-1ubuntu4.1 [8176 B]
+Get:62 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif1 amd64 1.17.6-1ubuntu4.1 [275 kB]
+Get:63 http://archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8 amd64 2.1.5-2ubuntu2 [150 kB]
+Get:64 http://archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8 amd64 8c-2ubuntu11 [2148 B]
+Get:65 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libdeflate0 amd64 1.19-1build1.1 [43.9 kB]
+Get:66 http://archive.ubuntu.com/ubuntu noble/main amd64 libjbig0 amd64 2.1-6.1ubuntu2 [29.7 kB]
+Get:67 http://archive.ubuntu.com/ubuntu noble/main amd64 liblerc4 amd64 4.0.0+ds-4ubuntu2 [179 kB]
+Get:68 http://archive.ubuntu.com/ubuntu noble/main amd64 libwebp7 amd64 1.3.2-0.4build3 [230 kB]
+Get:69 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libtiff6 amd64 4.5.1+git230720-4ubuntu2.3 [199 kB]
+Get:70 http://archive.ubuntu.com/ubuntu noble/main amd64 libxpm4 amd64 1:3.5.17-1build2 [36.5 kB]
+Get:71 http://archive.ubuntu.com/ubuntu noble/main amd64 libgd3 amd64 2.3.3-9ubuntu5 [128 kB]
+Get:72 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-devtools amd64 2.39-0ubuntu8.6 [29.3 kB]
+Get:73 http://archive.ubuntu.com/ubuntu noble/main amd64 libfile-fcntllock-perl amd64 0.22-4ubuntu5 [30.7 kB]
+Get:74 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libheif-plugin-aomenc amd64 1.17.6-1ubuntu4.1 [14.7 kB]
+Get:75 http://archive.ubuntu.com/ubuntu noble/main amd64 manpages-dev all 6.7-2 [2013 kB]
+Get:76 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 unzip amd64 6.0-28ubuntu4.1 [174 kB]
+Get:77 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 zlib1g-dev amd64 1:1.3.dfsg-3.1ubuntu2.1 [894 kB]
+Extracting templates from packages: 38%Extracting templates from packages: 77%Extracting templates from packages: 100%
+Fetched 79.6 MB in 1s (72.1 MB/s)
 Selecting previously unselected package binutils-common:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37324 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37325 files and directories currently installed.)
 Preparing to unpack .../00-binutils-common_2.42-4ubuntu2.5_amd64.deb ...
 Unpacking binutils-common:amd64 (2.42-4ubuntu2.5) ...
 Selecting previously unselected package libsframe1:amd64.
@@ -383,11 +429,11 @@ Selecting previously unselected package binutils.
 Preparing to unpack .../07-binutils_2.42-4ubuntu2.5_amd64.deb ...
 Unpacking binutils (2.42-4ubuntu2.5) ...
 Selecting previously unselected package libc-dev-bin.
-Preparing to unpack .../08-libc-dev-bin_2.39-0ubuntu8.5_amd64.deb ...
-Unpacking libc-dev-bin (2.39-0ubuntu8.5) ...
+Preparing to unpack .../08-libc-dev-bin_2.39-0ubuntu8.6_amd64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.6) ...
 Selecting previously unselected package linux-libc-dev:amd64.
-Preparing to unpack .../09-linux-libc-dev_6.8.0-83.83_amd64.deb ...
-Unpacking linux-libc-dev:amd64 (6.8.0-83.83) ...
+Preparing to unpack .../09-linux-libc-dev_6.8.0-84.84_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-84.84) ...
 Selecting previously unselected package libcrypt-dev:amd64.
 Preparing to unpack .../10-libcrypt-dev_1%3a4.4.36-4build1_amd64.deb ...
 Unpacking libcrypt-dev:amd64 (1:4.4.36-4build1) ...
@@ -395,8 +441,8 @@ Selecting previously unselected package rpcsvc-proto.
 Preparing to unpack .../11-rpcsvc-proto_1.4.2-0ubuntu7_amd64.deb ...
 Unpacking rpcsvc-proto (1.4.2-0ubuntu7) ...
 Selecting previously unselected package libc6-dev:amd64.
-Preparing to unpack .../12-libc6-dev_2.39-0ubuntu8.5_amd64.deb ...
-Unpacking libc6-dev:amd64 (2.39-0ubuntu8.5) ...
+Preparing to unpack .../12-libc6-dev_2.39-0ubuntu8.6_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.39-0ubuntu8.6) ...
 Selecting previously unselected package gcc-13-base:amd64.
 Preparing to unpack .../13-gcc-13-base_13.3.0-6ubuntu2~24.04_amd64.deb ...
 Unpacking gcc-13-base:amd64 (13.3.0-6ubuntu2~24.04) ...
@@ -572,8 +618,8 @@ Selecting previously unselected package libgd3:amd64.
 Preparing to unpack .../70-libgd3_2.3.3-9ubuntu5_amd64.deb ...
 Unpacking libgd3:amd64 (2.3.3-9ubuntu5) ...
 Selecting previously unselected package libc-devtools.
-Preparing to unpack .../71-libc-devtools_2.39-0ubuntu8.5_amd64.deb ...
-Unpacking libc-devtools (2.39-0ubuntu8.5) ...
+Preparing to unpack .../71-libc-devtools_2.39-0ubuntu8.6_amd64.deb ...
+Unpacking libc-devtools (2.39-0ubuntu8.6) ...
 Selecting previously unselected package libfile-fcntllock-perl.
 Preparing to unpack .../72-libfile-fcntllock-perl_0.22-4ubuntu5_amd64.deb ...
 Unpacking libfile-fcntllock-perl (0.22-4ubuntu5) ...
@@ -600,7 +646,7 @@ Setting up libalgorithm-diff-perl (1.201-1) ...
 Setting up unzip (6.0-28ubuntu4.1) ...
 Setting up binutils-common:amd64 (2.42-4ubuntu2.5) ...
 Setting up libdeflate0:amd64 (1.19-1build1.1) ...
-Setting up linux-libc-dev:amd64 (6.8.0-83.83) ...
+Setting up linux-libc-dev:amd64 (6.8.0-84.84) ...
 Setting up libctf-nobfd0:amd64 (2.42-4ubuntu2.5) ...
 Setting up libgomp1:amd64 (14.2.0-4ubuntu2~24.04) ...
 Setting up bzip2 (1.0.8-5.1build0.1) ...
@@ -629,7 +675,7 @@ Setting up libtsan2:amd64 (14.2.0-4ubuntu2~24.04) ...
 Setting up libbinutils:amd64 (2.42-4ubuntu2.5) ...
 Setting up libisl23:amd64 (0.26-3build1.1) ...
 Setting up libde265-0:amd64 (1.0.15-1build3) ...
-Setting up libc-dev-bin (2.39-0ubuntu8.5) ...
+Setting up libc-dev-bin (2.39-0ubuntu8.6) ...
 Setting up libalgorithm-diff-xs-perl:amd64 (0.04-8build3) ...
 Setting up libcc1-0:amd64 (14.2.0-4ubuntu2~24.04) ...
 Setting up liblsan0:amd64 (14.2.0-4ubuntu2~24.04) ...
@@ -642,7 +688,7 @@ Setting up fontconfig-config (2.15.0-1.1ubuntu2) ...
 Setting up libgprofng0:amd64 (2.42-4ubuntu2.5) ...
 Setting up libgcc-13-dev:amd64 (13.3.0-6ubuntu2~24.04) ...
 Setting up libtiff6:amd64 (4.5.1+git230720-4ubuntu2.3) ...
-Setting up libc6-dev:amd64 (2.39-0ubuntu8.5) ...
+Setting up libc6-dev:amd64 (2.39-0ubuntu8.6) ...
 Setting up libstdc++-13-dev:amd64 (13.3.0-6ubuntu2~24.04) ...
 Setting up binutils-x86-64-linux-gnu (2.42-4ubuntu2.5) ...
 Setting up cpp-x86-64-linux-gnu (4:13.2.0-7ubuntu1) ...
@@ -665,13 +711,13 @@ Setting up libheif-plugin-aomdec:amd64 (1.17.6-1ubuntu4.1) ...
 Setting up libheif1:amd64 (1.17.6-1ubuntu4.1) ...
 Setting up libheif-plugin-libde265:amd64 (1.17.6-1ubuntu4.1) ...
 Setting up libheif-plugin-aomenc:amd64 (1.17.6-1ubuntu4.1) ...
-Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
 Processing triggers for man-db (2.12.0-4build2) ...
 Processing triggers for sgml-base (1.31) ...
 Setting up libfontconfig1:amd64 (2.15.0-1.1ubuntu2) ...
 Setting up libgd3:amd64 (2.3.3-9ubuntu5) ...
-Setting up libc-devtools (2.39-0ubuntu8.5) ...
-Processing triggers for libc-bin (2.39-0ubuntu8.5) ...
+Setting up libc-devtools (2.39-0ubuntu8.6) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
 Disabling Ubuntu mode, explicit restart mode configured
 Welcome to Gradle 9.1.0!
 
@@ -721,7 +767,7 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 
 [Incubating] Problems report is available at: file:///root/signal-cli/build/reports/problems/problems-report.html
 
-BUILD SUCCESSFUL in 1m 52s
+BUILD SUCCESSFUL in 1m 56s
 15 actionable tasks: 15 executed
 Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
@@ -743,7 +789,7 @@ Consider enabling configuration cache to speed up this build: https://docs.gradl
 > Task :startScripts UP-TO-DATE
 > Task :installDist
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL in 2s
 12 actionable tasks: 1 executed, 11 up-to-date
 Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
@@ -987,7 +1033,7 @@ https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/B
 ------------------------------------------------------------------------------------------------------------------------
 The URL protocol jar is not tested and might not work as expected.
 Supported URL protocols enabled by default: file,resource. Supported URL protocols available on demand: http,https.
-[1/8] Initializing...                                                                                   (11.2s @ 0.15GB)
+[1/8] Initializing...                                                                                   (12.7s @ 0.17GB)
  Java version: 21.0.8+12-LTS, vendor version: Oracle GraalVM 21.0.8+12.1
  Graal compiler: optimization level: 2, target machine: compatibility, PGO: ML-inferred
  C compiler: gcc (linux, x86_64, 13.3.0)
@@ -1000,36 +1046,36 @@ Supported URL protocols enabled by default: file,resource. Supported URL protoco
 Build resources:
  - 7.34GB of memory (75.6% of 9.71GB system memory, determined at start)
  - 4 thread(s) (100.0% of 4 available processor(s), determined at start)
-[2/8] Performing analysis...  [******]                                                                 (120.6s @ 1.80GB)
-   19,565 reachable types   (90.4% of   21,654 total)
-   31,194 reachable fields  (67.3% of   46,356 total)
-  104,559 reachable methods (64.0% of  163,451 total)
-    5,812 types, 1,539 fields, and 5,915 methods registered for reflection
-      131 types,    76 fields, and   142 methods registered for JNI access
+[2/8] Performing analysis...  [******]                                                                 (150.4s @ 2.25GB)
+   19,821 reachable types   (90.3% of   21,942 total)
+   31,510 reachable fields  (67.3% of   46,825 total)
+  105,719 reachable methods (64.0% of  165,195 total)
+    5,881 types, 1,577 fields, and 5,925 methods registered for reflection
+      140 types,    76 fields, and   149 methods registered for JNI access
         4 native libraries: dl, pthread, rt, z
-[3/8] Building universe...                                                                              (14.4s @ 2.52GB)
-[4/8] Parsing methods...      [******]                                                                  (34.7s @ 1.84GB)
-[5/8] Inlining methods...     [***]                                                                      (4.7s @ 2.41GB)
-[6/8] Compiling methods...    [**************]                                                         (205.8s @ 2.76GB)
-[7/8] Laying out methods...   [****]                                                                    (19.0s @ 2.66GB)
-[8/8] Creating image...       [*****]                                                                   (22.6s @ 3.65GB)
-  54.21MB (18.78%) for code area:    59,518 compilation units
- 224.91MB (77.92%) for image heap:  488,299 objects and 677 resources
-   9.53MB ( 3.30%) for other data
- 288.65MB in total
+[3/8] Building universe...                                                                              (20.8s @ 2.88GB)
+[4/8] Parsing methods...      [*******]                                                                 (50.2s @ 2.09GB)
+[5/8] Inlining methods...     [***]                                                                      (5.4s @ 1.80GB)
+[6/8] Compiling methods...    [**************]                                                         (204.7s @ 3.01GB)
+[7/8] Laying out methods...   [****]                                                                    (17.3s @ 3.15GB)
+[8/8] Creating image...       [*****]                                                                   (22.2s @ 4.14GB)
+  54.64MB (18.85%) for code area:    60,128 compilation units
+ 225.66MB (77.84%) for image heap:  494,013 objects and 677 resources
+   9.61MB ( 3.32%) for other data
+ 289.91MB in total
 ------------------------------------------------------------------------------------------------------------------------
 Top 10 origins of code area:                                Top 10 object types in image heap:
-  14.90MB java.base                                          179.79MB byte[] for embedded resources
-   6.35MB bcprov-jdk18on-1.81.jar                             15.69MB byte[] for code metadata
-   5.09MB svm.jar (Native Image)                               8.40MB byte[] for java.lang.String
-   4.58MB kotlin-reflect-2.1.0.jar                             4.39MB char[]
-   4.02MB java.xml                                             3.66MB java.lang.Class
-   3.07MB signal-service-java-2.15.3_unofficial_128.jar        3.65MB java.lang.String
-   2.62MB libsignal-cli-0.13.19.jar                            1.64MB byte[] for reflection metadata
-   2.45MB jackson-databind-2.20.0.jar                       1012.16kB byte[] for general heap data
-   1.34MB signal-cli-0.13.19.jar                             917.11kB com.oracle.svm.core.hub.DynamicHubCompanion
- 821.33kB jackson-core-2.20.0.jar                            572.72kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
-   8.57MB for 48 more packages                                 5.25MB for 4072 more object types
+  14.90MB java.base                                          180.33MB byte[] for embedded resources
+   6.35MB bcprov-jdk18on-1.81.jar                             15.84MB byte[] for code metadata
+   5.11MB svm.jar (Native Image)                               8.53MB byte[] for java.lang.String
+   4.59MB kotlin-reflect-2.1.0.jar                             4.39MB char[]
+   4.02MB java.xml                                             3.71MB java.lang.Class
+   3.12MB signal-service-java-2.15.3_unofficial_130.jar        3.70MB java.lang.String
+   2.62MB libsignal-cli-0.13.20.jar                            1.68MB byte[] for reflection metadata
+   2.45MB jackson-databind-2.20.0.jar                       1012.39kB byte[] for general heap data
+   1.35MB signal-cli-0.13.20.jar                             929.11kB com.oracle.svm.core.hub.DynamicHubCompanion
+ 817.31kB jackson-core-2.20.0.jar                            580.09kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
+   8.92MB for 49 more packages                                 5.02MB for 4104 more object types
                               Use '-H:+BuildReport' to create a report with more details.
 ------------------------------------------------------------------------------------------------------------------------
 Security report:
@@ -1043,14 +1089,14 @@ Recommendations:
  HEAP: Set max heap for improved and more predictable memory usage.
  QBM:  Use the quick build mode ('-Ob') to speed up builds during development.
 ------------------------------------------------------------------------------------------------------------------------
-                       39.5s (9.0% of total time) in 295 GCs | Peak RSS: 6.14GB | CPU load: 3.56
+                       45.7s (9.3% of total time) in 315 GCs | Peak RSS: 5.67GB | CPU load: 3.20
 ------------------------------------------------------------------------------------------------------------------------
 Produced artifacts:
  /root/signal-cli/build/native/nativeCompile/signal-cli (executable)
 ========================================================================================================================
-Finished generating 'signal-cli' in 7m 15s.
+Finished generating 'signal-cli' in 8m 5s.
 [native-image-plugin] Native Image written to: /root/signal-cli/build/native/nativeCompile
 
-BUILD SUCCESSFUL in 7m 20s
+BUILD SUCCESSFUL in 8m 14s
 12 actionable tasks: 2 executed, 10 up-to-date
 Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.1.0/userguide/configuration_cache_enabling.html
