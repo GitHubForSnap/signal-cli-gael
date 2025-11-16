@@ -3,89 +3,105 @@ Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
 Ign:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
 Ign:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
 Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
-Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
 Ign:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
 Ign:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
 Ign:2 http://security.ubuntu.com/ubuntu noble-security InRelease
 Ign:1 http://archive.ubuntu.com/ubuntu noble InRelease
 Ign:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease
 Ign:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease
-Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:5 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1270 kB]
-Get:6 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [211 kB]
-Get:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
-Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [9008 B]
-Get:9 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [906 kB]
-Get:10 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [203 kB]
-Get:11 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.3 kB]
-Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [19.4 kB]
-Get:13 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2080 kB]
-Get:14 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [470 kB]
-Get:15 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
-Get:16 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [27.4 kB]
-Get:17 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [5708 B]
-Get:18 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
-Get:19 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [384 B]
 Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
 Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
 Get:4 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-Get:20 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
-Get:21 http://archive.ubuntu.com/ubuntu noble/universe Translation-en [5982 kB]
-Get:22 http://archive.ubuntu.com/ubuntu noble/universe amd64 Components [3871 kB]
-Get:23 http://archive.ubuntu.com/ubuntu noble/universe amd64 c-n-f Metadata [301 kB]
-Get:24 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [269 kB]
-Get:25 http://archive.ubuntu.com/ubuntu noble/multiverse Translation-en [118 kB]
-Get:26 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Components [35.0 kB]
-Get:27 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 c-n-f Metadata [8328 B]
-Get:28 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1573 kB]
-Get:29 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [297 kB]
-Get:30 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
-Get:31 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [15.4 kB]
-Get:32 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1498 kB]
-Get:33 http://archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [303 kB]
-Get:34 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
-Get:35 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [31.4 kB]
-Get:36 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2226 kB]
-Get:37 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [505 kB]
-Get:38 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
-Get:39 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [30.3 kB]
-Get:40 http://archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [5564 B]
-Get:41 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-Get:42 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [484 B]
-Get:43 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [40.4 kB]
-Get:44 http://archive.ubuntu.com/ubuntu noble-backports/main Translation-en [9208 B]
-Get:45 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7148 B]
-Get:46 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [368 B]
-Get:47 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [28.9 kB]
-Get:48 http://archive.ubuntu.com/ubuntu noble-backports/universe Translation-en [17.5 kB]
-Get:49 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
-Get:50 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 c-n-f Metadata [1444 B]
-Get:51 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
-Get:52 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 c-n-f Metadata [116 B]
-Get:53 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
-Get:54 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 c-n-f Metadata [116 B]
-Fetched 38.4 MB in 13s (2925 kB/s)
+Get:5 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
+Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble/universe Translation-en [5982 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/universe amd64 Components [3871 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/universe amd64 c-n-f Metadata [301 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [269 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble/multiverse Translation-en [118 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Components [35.0 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 c-n-f Metadata [8328 B]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1585 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [299 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [15.7 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1499 kB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [303 kB]
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [31.4 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2244 kB]
+Get:22 http://archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [509 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:24 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [30.3 kB]
+Get:25 http://archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [5564 B]
+Get:26 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:27 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [484 B]
+Get:28 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [40.4 kB]
+Get:29 http://archive.ubuntu.com/ubuntu noble-backports/main Translation-en [9208 B]
+Get:30 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7140 B]
+Get:31 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [368 B]
+Get:32 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [28.9 kB]
+Get:33 http://archive.ubuntu.com/ubuntu noble-backports/universe Translation-en [17.5 kB]
+Get:34 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+Get:35 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 c-n-f Metadata [1444 B]
+Get:36 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+Get:37 http://archive.ubuntu.com/ubuntu noble-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:38 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:39 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 c-n-f Metadata [116 B]
+Get:40 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1309 kB]
+Get:41 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [215 kB]
+Get:42 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+Get:43 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [9416 B]
+Get:44 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [908 kB]
+Get:45 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [204 kB]
+Get:46 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.3 kB]
+Get:47 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [19.4 kB]
+Get:48 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2140 kB]
+Get:49 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [486 kB]
+Get:50 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:51 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [27.4 kB]
+Get:52 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [5708 B]
+Get:53 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+Get:54 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [384 B]
+Fetched 38.6 MB in 13s (2999 kB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
 Reading state information...
 Calculating upgrade...
 The following packages will be upgraded:
-  libssh-4 libxml2
-2 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
-Need to get 951 kB of archives.
-After this operation, 0 B of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3.6 [763 kB]
-Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libssh-4 amd64 0.10.6-2ubuntu0.2 [188 kB]
-Fetched 951 kB in 1s (1222 kB/s)
+  libpython3-stdlib python3 python3-minimal snapd
+4 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 34.2 MB of archives.
+After this operation, 558 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2.1 [27.4 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2.1 [23.0 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2.1 [10.1 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 snapd amd64 2.72+ubuntu24.04 [34.1 MB]
+Fetched 34.2 MB in 1s (62.2 MB/s)
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37340 files and directories currently installed.)
-Preparing to unpack .../libxml2_2.9.14+dfsg-1.3ubuntu3.6_amd64.deb ...
-Unpacking libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3.6) over (2.9.14+dfsg-1.3ubuntu3.5) ...
-Preparing to unpack .../libssh-4_0.10.6-2ubuntu0.2_amd64.deb ...
-Unpacking libssh-4:amd64 (0.10.6-2ubuntu0.2) over (0.10.6-2ubuntu0.1) ...
-Setting up libssh-4:amd64 (0.10.6-2ubuntu0.2) ...
-Setting up libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3.6) ...
-Processing triggers for libc-bin (2.39-0ubuntu8.6) ...
+Preparing to unpack .../python3-minimal_3.12.3-0ubuntu2.1_amd64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2.1) over (3.12.3-0ubuntu2) ...
+Setting up python3-minimal (3.12.3-0ubuntu2.1) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37340 files and directories currently installed.)
+Preparing to unpack .../python3_3.12.3-0ubuntu2.1_amd64.deb ...
+running python pre-rtupdate hooks for python3.12...
+Unpacking python3 (3.12.3-0ubuntu2.1) over (3.12.3-0ubuntu2) ...
+Preparing to unpack .../libpython3-stdlib_3.12.3-0ubuntu2.1_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.12.3-0ubuntu2.1) over (3.12.3-0ubuntu2) ...
+Preparing to unpack .../snapd_2.72+ubuntu24.04_amd64.deb ...
+Unpacking snapd (2.72+ubuntu24.04) over (2.71+ubuntu24.04) ...
+Setting up snapd (2.72+ubuntu24.04) ...
+snapd.failure.service is a disabled or a static unit not running, not starting it.
+snapd.gpio-chardev-setup.target is a disabled or a static unit not running, not starting it.
+snapd.snap-repair.service is a disabled or a static unit not running, not starting it.
+Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2.1) ...
+Setting up python3 (3.12.3-0ubuntu2.1) ...
+running python rtupdate hooks for python3.12...
+running python post-rtupdate hooks for python3.12...
+Processing triggers for dbus (1.14.10-4ubuntu4.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
 Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
 Building dependency tree...
 Reading state information...
@@ -211,9 +227,9 @@ Get:75 http://archive.ubuntu.com/ubuntu noble/main amd64 manpages-dev all 6.7-2 
 Get:76 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 unzip amd64 6.0-28ubuntu4.1 [174 kB]
 Get:77 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 zlib1g-dev amd64 1:1.3.dfsg-3.1ubuntu2.1 [894 kB]
 Extracting templates from packages: 38%Extracting templates from packages: 77%Extracting templates from packages: 100%
-Fetched 79.6 MB in 1s (75.9 MB/s)
+Fetched 79.6 MB in 3s (25.5 MB/s)
 Selecting previously unselected package binutils-common:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37340 files and directories currently installed.)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37341 files and directories currently installed.)
 Preparing to unpack .../00-binutils-common_2.42-4ubuntu2.6_amd64.deb ...
 Unpacking binutils-common:amd64 (2.42-4ubuntu2.6) ...
 Selecting previously unselected package libsframe1:amd64.
@@ -576,7 +592,7 @@ Starting a Gradle Daemon (subsequent builds will be faster)
 
 [Incubating] Problems report is available at: file:///root/signal-cli/build/reports/problems/problems-report.html
 
-BUILD SUCCESSFUL in 1m 52s
+BUILD SUCCESSFUL in 1m 55s
 15 actionable tasks: 15 executed
 Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.0/userguide/configuration_cache_enabling.html
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
@@ -598,7 +614,7 @@ Consider enabling configuration cache to speed up this build: https://docs.gradl
 > Task :startScripts UP-TO-DATE
 > Task :installDist
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL in 2s
 12 actionable tasks: 1 executed, 11 up-to-date
 Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.0/userguide/configuration_cache_enabling.html
 > Task :buildSrc:checkKotlinGradlePluginConfigurationErrors SKIPPED
@@ -672,7 +688,7 @@ usage: signal-cli [-h] [--version] [-v] [--log-file LOG_FILE] [--scrub-log]
                   [--service-environment {live,staging,sandbox}]
                   [--trust-new-identities {always,on-first-use,never}]
                   [--disable-send-log] [--dbus | --dbus-system]
-                  {addDevice,addStickerPack,block,daemon,deleteLocalAccountData,finishChangeNumber,getAttachment,getAvatar,getSticker,getUserStatus,joinGroup,jsonRpc,link,listAccounts,listContacts,listDevices,listGroups,listIdentities,listStickerPacks,quitGroup,receive,register,remoteDelete,removeContact,removeDevice,removePin,send,sendContacts,sendMessageRequestResponse,sendPaymentNotification,sendReaction,sendReceipt,sendSyncRequest,sendTyping,setPin,startChangeNumber,submitRateLimitChallenge,trust,unblock,unregister,updateAccount,updateConfiguration,updateContact,updateGroup,updateProfile,uploadStickerPack,verify,version}
+                  {addDevice,addStickerPack,block,daemon,deleteLocalAccountData,finishChangeNumber,getAttachment,getAvatar,getSticker,getUserStatus,joinGroup,jsonRpc,link,listAccounts,listContacts,listDevices,listGroups,listIdentities,listStickerPacks,quitGroup,receive,register,remoteDelete,removeContact,removeDevice,removePin,send,sendContacts,sendMessageRequestResponse,sendPaymentNotification,sendPollCreate,sendPollTerminate,sendPollVote,sendReaction,sendReceipt,sendSyncRequest,sendTyping,setPin,startChangeNumber,submitRateLimitChallenge,trust,unblock,unregister,updateAccount,updateConfiguration,updateContact,updateGroup,updateProfile,uploadStickerPack,verify,version}
                   ...
 
 Commandline interface for Signal.
@@ -713,7 +729,7 @@ named arguments:
                          that recipient couldn't decrypt) (default: false)
 
 subcommands:
-  {addDevice,addStickerPack,block,daemon,deleteLocalAccountData,finishChangeNumber,getAttachment,getAvatar,getSticker,getUserStatus,joinGroup,jsonRpc,link,listAccounts,listContacts,listDevices,listGroups,listIdentities,listStickerPacks,quitGroup,receive,register,remoteDelete,removeContact,removeDevice,removePin,send,sendContacts,sendMessageRequestResponse,sendPaymentNotification,sendReaction,sendReceipt,sendSyncRequest,sendTyping,setPin,startChangeNumber,submitRateLimitChallenge,trust,unblock,unregister,updateAccount,updateConfiguration,updateContact,updateGroup,updateProfile,uploadStickerPack,verify,version}
+  {addDevice,addStickerPack,block,daemon,deleteLocalAccountData,finishChangeNumber,getAttachment,getAvatar,getSticker,getUserStatus,joinGroup,jsonRpc,link,listAccounts,listContacts,listDevices,listGroups,listIdentities,listStickerPacks,quitGroup,receive,register,remoteDelete,removeContact,removeDevice,removePin,send,sendContacts,sendMessageRequestResponse,sendPaymentNotification,sendPollCreate,sendPollTerminate,sendPollVote,sendReaction,sendReceipt,sendSyncRequest,sendTyping,setPin,startChangeNumber,submitRateLimitChallenge,trust,unblock,unregister,updateAccount,updateConfiguration,updateContact,updateGroup,updateProfile,uploadStickerPack,verify,version}
     addDevice            Link another device  to  this  device. Only works,
                          if this is the primary device.
     addStickerPack       Install a sticker pack for this account.
@@ -766,6 +782,12 @@ subcommands:
                          devices.
     sendPaymentNotification
                          Send a payment notification.
+    sendPollCreate       Create a poll  and  send  it  to  another  user or
+                         group.
+    sendPollTerminate    Terminate a poll and  send  it  to another user or
+                         group.
+    sendPollVote         Vote on a poll  and  send  it  to  another user or
+                         group.
     sendReaction         Send reaction to  a  previously  received  or sent
                          message.
     sendReceipt          Send a read  or  viewed  receipt  to  a previously
@@ -844,7 +866,7 @@ https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/B
 ------------------------------------------------------------------------------------------------------------------------
 The URL protocol jar is not tested and might not work as expected.
 Supported URL protocols enabled by default: file,resource. Supported URL protocols available on demand: http,https.
-[1/8] Initializing...                                                                                   (10.3s @ 0.16GB)
+[1/8] Initializing...                                                                                   (10.8s @ 0.17GB)
  Java version: 21.0.9+7-LTS, vendor version: Oracle GraalVM 21.0.9+7.1
  Graal compiler: optimization level: 2, target machine: compatibility, PGO: ML-inferred
  C compiler: gcc (linux, x86_64, 13.3.0)
@@ -857,36 +879,36 @@ Supported URL protocols enabled by default: file,resource. Supported URL protoco
 Build resources:
  - 7.34GB of memory (75.6% of 9.71GB system memory, determined at start)
  - 4 thread(s) (100.0% of 4 available processor(s), determined at start)
-[2/8] Performing analysis...  [******]                                                                 (118.3s @ 1.99GB)
-   19,874 reachable types   (90.4% of   21,985 total)
-   31,606 reachable fields  (67.4% of   46,904 total)
-  105,934 reachable methods (63.9% of  165,708 total)
-    5,902 types, 1,578 fields, and 5,930 methods registered for reflection
+[2/8] Performing analysis...  [******]                                                                 (118.8s @ 1.86GB)
+   19,900 reachable types   (90.4% of   22,014 total)
+   31,686 reachable fields  (67.5% of   46,968 total)
+  106,078 reachable methods (63.9% of  165,902 total)
+    5,910 types, 1,605 fields, and 5,962 methods registered for reflection
       140 types,    76 fields, and   149 methods registered for JNI access
         4 native libraries: dl, pthread, rt, z
-[3/8] Building universe...                                                                              (13.1s @ 2.43GB)
-[4/8] Parsing methods...      [******]                                                                  (34.1s @ 2.36GB)
-[5/8] Inlining methods...     [***]                                                                      (4.8s @ 2.72GB)
-[6/8] Compiling methods...    [**************]                                                         (198.6s @ 2.78GB)
-[7/8] Laying out methods...   [****]                                                                    (14.1s @ 4.11GB)
-[8/8] Creating image...       [*****]                                                                   (23.2s @ 2.98GB)
-  54.49MB (18.99%) for code area:    60,263 compilation units
- 222.83MB (77.65%) for image heap:  494,800 objects and 677 resources
-   9.63MB ( 3.36%) for other data
- 286.95MB in total
+[3/8] Building universe...                                                                              (14.8s @ 2.82GB)
+[4/8] Parsing methods...      [******]                                                                  (34.9s @ 2.07GB)
+[5/8] Inlining methods...     [***]                                                                      (4.7s @ 2.56GB)
+[6/8] Compiling methods...    [**************]                                                         (195.5s @ 4.19GB)
+[7/8] Laying out methods...   [****]                                                                    (16.7s @ 3.15GB)
+[8/8] Creating image...       [*****]                                                                   (23.0s @ 4.15GB)
+  54.59MB (18.90%) for code area:    60,359 compilation units
+ 224.66MB (77.76%) for image heap:  495,436 objects and 677 resources
+   9.65MB ( 3.34%) for other data
+ 288.91MB in total
 ------------------------------------------------------------------------------------------------------------------------
 Top 10 origins of code area:                                Top 10 object types in image heap:
-  14.88MB java.base                                          177.51MB byte[] for embedded resources
-   6.19MB bcprov-jdk18on-1.82.jar                             15.84MB byte[] for code metadata
-   5.11MB svm.jar (Native Image)                               8.56MB byte[] for java.lang.String
+  14.88MB java.base                                          179.31MB byte[] for embedded resources
+   6.19MB bcprov-jdk18on-1.82.jar                             15.87MB byte[] for code metadata
+   5.12MB svm.jar (Native Image)                               8.58MB byte[] for java.lang.String
    4.59MB kotlin-reflect-2.1.0.jar                             4.39MB char[]
    4.03MB java.xml                                             3.72MB java.lang.Class
-   3.12MB signal-service-java-2.15.3_unofficial_132.jar        3.71MB java.lang.String
-   2.62MB libsignal-cli-0.13.21.jar                            1.69MB byte[] for reflection metadata
-   2.45MB jackson-databind-2.20.0.jar                       1002.18kB byte[] for general heap data
-   1.35MB signal-cli-0.13.21.jar                             931.59kB com.oracle.svm.core.hub.DynamicHubCompanion
- 817.21kB jackson-core-2.20.0.jar                            581.50kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
-   8.94MB for 49 more packages                                 4.95MB for 4108 more object types
+   3.16MB signal-service-java-2.15.3_unofficial_134.jar        3.72MB java.lang.String
+   2.63MB libsignal-cli-0.13.22.jar                            1.70MB byte[] for reflection metadata
+   2.45MB jackson-databind-2.20.1.jar                       1002.19kB byte[] for general heap data
+   1.39MB signal-cli-0.13.22.jar                             932.81kB com.oracle.svm.core.hub.DynamicHubCompanion
+ 817.51kB jackson-core-2.20.1.jar                            582.28kB c.o.svm.core.hub.DynamicHub$ReflectionMetadata
+   8.95MB for 49 more packages                                 4.93MB for 4116 more object types
                               Use '-H:+BuildReport' to create a report with more details.
 ------------------------------------------------------------------------------------------------------------------------
 Security report:
@@ -900,14 +922,14 @@ Recommendations:
  HEAP: Set max heap for improved and more predictable memory usage.
  QBM:  Use the quick build mode ('-Ob') to speed up builds during development.
 ------------------------------------------------------------------------------------------------------------------------
-                       37.8s (9.0% of total time) in 340 GCs | Peak RSS: 5.89GB | CPU load: 3.56
+                       37.8s (9.0% of total time) in 302 GCs | Peak RSS: 5.67GB | CPU load: 3.55
 ------------------------------------------------------------------------------------------------------------------------
 Produced artifacts:
  /root/signal-cli/build/native/nativeCompile/signal-cli (executable)
 ========================================================================================================================
-Finished generating 'signal-cli' in 6m 58s.
+Finished generating 'signal-cli' in 7m 1s.
 [native-image-plugin] Native Image written to: /root/signal-cli/build/native/nativeCompile
 
-BUILD SUCCESSFUL in 7m 3s
+BUILD SUCCESSFUL in 7m 6s
 12 actionable tasks: 2 executed, 10 up-to-date
 Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.0/userguide/configuration_cache_enabling.html
